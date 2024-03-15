@@ -577,6 +577,8 @@ border:1px solid #3617ba;
     margin-top: auto;
     margin-bottom: auto;
 }
+
+/* ::::::::::::::::::::::::::::::::::  launch-project-section  ::::::::::::::::::::::::::::::::::::::::  */
 .launch-project-section{
     background-color: #0b092f;
     color: #fff;
@@ -602,6 +604,8 @@ border:1px solid #3617ba;
     margin-bottom: 3rem;
 }
 .launch-project-btn a{
+    position: relative;
+    z-index: 1;
     font-weight: bold;
    padding: 1.5rem 2rem;
    border: 1px solid;
@@ -618,4 +622,47 @@ border:1px solid #3617ba;
 }
 .launch-project-section-image img{
     width: 100%;
+}
+
+/* ::::::::::::::::::::::::::::::::::  footer-section  ::::::::::::::::::::::::::::::::::::::::  */
+
+footer{
+    padding: 2rem 2rem;
+    background-color: #3617ba;
+    color: #fff;
+}
+.footer-all-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-certificate{
+    display: flex;
+    gap: 1.5rem;
+}
+.social-media-icons i{
+    padding:.5rem;
+}
+.licence-one{
+  width: 45%;
+}
+.licence-one img{
+    width: 100%;
+}
+.footer-parts{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+   
+}
+.footer-parts p{
+   font-size: 13px;
+   line-height: 1.3rem;
+}
+.footer-last{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
