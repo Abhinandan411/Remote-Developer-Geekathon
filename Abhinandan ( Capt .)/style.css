@@ -582,7 +582,7 @@ border:1px solid #3617ba;
 .launch-project-section{
     background-color: #0b092f;
     color: #fff;
-    height: 600px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -619,14 +619,20 @@ border:1px solid #3617ba;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    align-items: center;
 }
 .launch-project-section-image img{
-    width: 100%;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* ::::::::::::::::::::::::::::::::::  footer-section  ::::::::::::::::::::::::::::::::::::::::  */
 
 footer{
+   
     padding: 2rem 2rem;
     background-color: #3617ba;
     color: #fff;
