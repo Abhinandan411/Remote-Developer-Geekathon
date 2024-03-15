@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    background-color: #0b092f;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+.hero nav ul{
+    display: flex;
+    padding: .2rem;
+}
+.hero nav ul li{
+    font-size: 18px;
+}
+.hero nav ul li a{
+    padding:.5rem ;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-request-btn {
+    margin-left: 10px;
+ padding: 1rem 2rem;
+border: 1px solid;
+width: 30%;
+border-radius: 2rem;
+}
+.nav-request-btn:hover{
+  background-color: #fff;
+  color: black;
+  transition: .3s ease;
+}
+.hero-header{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.heading span{
+    color: aqua;
+}
+.hero-header p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    line-height: 2rem;
+}
+.request-btn {
+    text-align: center;
+    
+}
+.request-btn a{
+ font-weight: bold;
+ display:inline-block;
+padding: 1rem 1.5rem;
+border: 1px solid;
+width: 30%;
+border-radius: 1rem;
+margin: 0 auto;
+background-color:  #3617ba;
+border:1px solid #3617ba;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::  remote-talent  ::::::::::::::::::::::::::::::::::::::::  */
+
+.remote-talent{
+    padding: 2rem 2rem;
+}
+.remote-talent-header{
+    text-align: center;
+}
+.talenet-header-logos{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+
+}
+.talenet-header-logos li{
+  animation: talenet-header-logos 20s infinite linear ;
+  padding: 2rem;
+  
+}
+.remote-talent-header h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #312a50;
+}
+.remote-talent-header h2 span{
+     color: #3617ba;
+}
+
+/* @keyframes talenet-header-logos{
+  from{
+    transform: translate(0%);
+  }
+  to{
+    transform: translate(-50%);
+  }  
+} */
+
+
+.remote-talent-main {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.remote-talent-main h1{
+    width: 50%;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #312a50;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 4rem;
+}
+.remote-talent-main p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+    color: #312a50;
+}
+.talented-members{
+    display: flex;
+}
+.member{
+    width: 31%;
+    padding: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member-no{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d6d6d6;
+    color: #312a50;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.member-no li{
+    text-align: center;
+    margin-top: .35rem;
+    list-style: none;
+}
+.member-image img{
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+.member-work h2 {
+  margin-bottom: 1rem;
+  color: #312a50;
+}
+.member-work p{
+    line-height: 1.25rem;
+    color: #312a50;
+}
+
+/* ::::::::::::::::::::::::::::::::::  tech-stack  ::::::::::::::::::::::::::::::::::::::::  */
+
+.tech-stack{
+    color: #fff;
+    padding: 2rem 2rem;
+    background: #3617ba;
+}
