@@ -52,8 +52,15 @@ body{
     text-align: center;
     padding: 100px;
 }
+.trust h2{
+    margin-bottom: 20px;
+}
 .trust h2 span{
     color: aqua;
+}
+.trust img{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .global{
     background-color: rgb(232, 244, 255);
@@ -490,4 +497,58 @@ body{
 .blur a{
     color: white;
     font-size: 12px;
+}
+.tech{
+    background-color: #3617ba;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+.top h1{
+    width: 40%;
+    font-size: 38px;
+    margin-right: 150px;
+}
+.top p{
+    width: 40%;
+}
+.bottom{
+    margin-left: 30px;
+}
+.bottom-t{
+    display: flex;
+}
+.bottom-t div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-right: 30px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: rgba(243, 244, 245, 0.1);
+}
+.bottom-t img{
+    width: 30px;
+    margin-right: 10px;
+}
+.tech a{
+    position: absolute;
+    left: 42.5%;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 20px;   
 }
