@@ -97,7 +97,7 @@ border-radius: 1rem;
     height: auto;
 }
 
-.swiper-slide1 {
+/* .swiper-slide1 {
     width: 20%;
     height: 40vh;
     background-color: #ff0000;
@@ -124,13 +124,15 @@ border-radius: 1rem;
     width: 20%;
     height: 40vh;
     background-color: #00d9ff;
-}
+} */
+
+
+/* ::::::::::::::::::::::::::::::::::  Partner -section  ::::::::::::::::::::::::::::::::::::::::  */
 .partner {
     margin-top: 8%;
     width: 100%;
     background: rgb(232, 244, 255);
     padding: 20px 0px;
-    /* font-family: "avenir_lt_std45_book"; */
 }
 
 .disc {
@@ -248,25 +250,23 @@ border-radius: 1rem;
 }
 .btn {
     margin: 0%;
-    border: 2px solid aliceblue;
-    transition: 0.8 ease-in-out;
+    border: 1.5px solid rgb(217, 231, 243);
+    /* transition: 0.8 ease-in-out; */
 }
 
 .btn a {
     list-style: none;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 12px;
+    padding: 5px;
 }
 
 .btn:hover {
-    border: 1px solid rgb(18, 17, 17);
     transition: 0.8 ease-in-out;
 }
 
 .btn a:hover {
-    color: blue;
-    text-decoration: underline;
+    color: rgb(100, 100, 163);
     transition: 0.8 ease-in-out;
 }
 
