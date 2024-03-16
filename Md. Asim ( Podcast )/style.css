@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  width: 100%;
+  background: rgb(54, 23, 186);
+  padding-top: 60px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+}
+
+#hero .content {
+  padding-left: 32px;
+  padding-right: 32px;
+  max-width: 805px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hero .content h1 {
+  font-size: 46px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 auto 24px;
+  text-align: center;
+  line-height: 56px;
+  font-family: "Roboto";
+}
+
+#hero .content p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 23px;
+}
+
+#subscriber {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 15px;
+}
+
+#subscriber input {
+  border: none;
+  background: transparent;
+  padding: 11px 12px;
+  font-size: 12px;
+  color: white;
+  outline: none;
+  font-weight: 400;
+  margin-top: 3px;
+  /* border: none; */
+  line-height: 30px;
+}
+
+#subscriber button {
+  border: none;
+  background: rgb(255 255 255 / 94%);
+  padding: 11px 12px;
+  font-size: 13px;
+  color: #000;
+  outline: none;
+  font-weight: 400;
+  border-radius: 15px;
+  /* border: none; */
+  line-height: 30px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+#hero .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -4px;
+}
+#hero .img-container img {
+  width: 100%;
+  height: 300px;
+}
+
+/* Master section */
+
+.master {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 60px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.master .container {
+  background: url(assets/tech-bg.webp) center center / cover no-repeat;
+  display: flex;
+  gap: 80px;
+  padding: 29px 52px;
+  margin: 0 28px;
+  border-radius: 15px;
+}
+
+.master .img-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 230px;
+}
+
+.master .container .text .text-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.text .text-heading h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.text .text-heading .company {
+  color: yellow;
+  text-align: justify;
+  margin-bottom: 0;
+  line-height: 0;
+  font-size: 14px;
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.spotify {
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.spotify a {
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px 10px;
+  border-radius: 18px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotify a span {
+  margin-left: 11px;
+  fill: #fff;
+  height: 28px;
+  width: 30px;
+}
