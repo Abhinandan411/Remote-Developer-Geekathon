@@ -6,7 +6,8 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(21, 21, 74);
+    background-color: #0b092f;
+
 }
 .hero{
     color: white;
@@ -154,7 +155,7 @@ body{
     padding-top: 60px;
     padding-left: 50px;
     padding-bottom: 60px;
-    background-color: rgb(21, 21, 74);
+    background-color: #0b092f;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -212,4 +213,174 @@ body{
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
+}
+.launch{
+    background-color: #0b092f;
+    background-image: url(https://remotebase.com/_next/image?url=%2Fimages%2Foverview%2Flanding%2Fexperience-img.webp&w=3840&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    position: relative;
+}
+.launch h1{
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.launch p{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.launch a{
+    position: absolute;
+    left: 42.5%;
+    color: white;
+    background-color: rgb(0, 81, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.remote{
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.remote h1{
+    color: #312a50;
+    text-align: center;
+    font-size: 38px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.pa-r{
+    color: #0c094a;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.im-flex{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box{
+    width: 30%;
+    margin-right: 70px;
+}
+.num{
+    display: inline-block;
+    border: 0.5px solid rgb(214, 214, 214);
+    color: #312a50;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.im-flex img{
+    margin-bottom: 15px;
+}
+.im-flex h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.im-flex{
+    font-size: 15px;
+    line-height: 24px;
+}
+.join{
+    background-color: rgb(232, 244, 255);
+    padding-top: 80px;
+}
+.join h1{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.join-para{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.white-w{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.white-b{
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 320px 320px 320px;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.icon-b{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+.icon-b i{
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0cbfaa;
+    opacity: 50%;
+    color: #01564c
+}
+.icon-b p{
+    font-size: 14px;
+}
+.three-pic{
+    width: 95%;
+    padding-left: 110px;
+    margin-right: auto;
+}
+.three-pic img{
+    background-color: rgb(232, 244, 255);
+    margin-right: 20px;
+}
+.network{
+    background-color: #180d5a;
+    background-image: url(https://remotebase.com/images/pricing/expert-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.network img{
+    width: 95%;
+    height: 100%;
+}
+.fifty-info{
+    color: white;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+.fifty-info h1{
+    margin-bottom: 20px;
+}
+.fifty-info-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+.fifty-info-w h4{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.fifty-info-w p{
+    font-size: 14px;
 }
