@@ -106,6 +106,7 @@ border:1px solid #3617ba;
     overflow: hidden;
 
 }
+
 .talenet-header-logos li{
   animation: talenet-header-logos 20s infinite linear ;
   padding: 2rem;
@@ -675,3 +676,6 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+
+
