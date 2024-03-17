@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1220px) {
+  .media{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 30px;
+  }
     nav .nav-btn{
         display: none;
     }
@@ -10,9 +15,10 @@
       
     }
     .request-btn a{
-        padding: 1rem .5rem;
-        font-weight: 500;
-        font-size: .8em;
+        width: 45%;
+        padding: 1rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
     }
     .remote-talent-main h1{
         font-size: 2.5rem;
@@ -65,9 +71,6 @@
        font-size: 15px;
        line-height: 1.5rem;
     }
-    /* .all-left-containers{
-        width: 45%;
-    } */
     .reason-main-right{
       width: 80%;
       margin-top: auto;
@@ -94,11 +97,6 @@
     }
     .remote-solution-section-header p{
         font-size: 15px;
-    }
-
-    .work-solution-technologies{
-        padding: 1.5rem;
-        gap: 4rem;
     }
     .work h2{
         font-size: 1.5rem;
@@ -134,6 +132,11 @@
 }
 
 @media only screen and (max-width: 950px){
+  .media{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px;
+  }
     .hero nav ul{
         display: none;
     }
@@ -141,7 +144,7 @@
         width: 60%;
     }
     .heading {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 2.5rem;
       }
       .hero-header p{
@@ -149,11 +152,10 @@
         line-height: 1.2rem;
       }
       .request-btn a{
-        padding: 1.5rem .5rem;
-        font-size: 11px;
-      }
+        width: 70%;
+    }
       .remote-talent-header h2{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
       }
       .talenet-header-logos li{
         padding: 1.5rem;
@@ -162,6 +164,10 @@
         width: 80%;
         font-size: 2rem;
         line-height: 2.8rem;
+      }
+      .remote-solution-section-header h1 {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
       }
       .remote-talent-main p{
         width: 80%;
@@ -173,5 +179,225 @@
       .member{
         width: 100%;
       }
+      .tech-stack-left{
+        width: 50%;
+      }
+      .tech-stack-left h2 {
+        font-size: 1.5rem;
+      }
+
+      .left-global{
+        width: 50%;
+      }
+      .left-global p {
+        font-size: 13px;
+      }
+      .left-global p {
+        font-size: 14px;
+      }
+      .gloabl-works {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+      .work h2 {
+        font-size: 1.3rem;
+      }
+      .global-image img{
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .developer-header h1 {
+        font-size: 2.3rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+      }
+      .developer-header p{
+        width: 80%;
+        font-size: 14px;
+      }
+      .developer{
+        width: 46%;
+      }
+      .developer-btn a{
+        padding: 1rem;
+        font-size: 13px;
+      }
+      .reason-main-section{
+        display: flex;
+        flex-direction: column;
+      }
+      .reason-main-left{
+        width: 100%;
+        padding: 2rem;
+      }
+      .main-left-container {
+        width: 100%;
+        
+      }
+      .reason-main-right{
+        padding: 2rem;
+        width: 100%;
+      }
+      .testimonial-main-discription h1 {
+        font-size: 1rem;
+      }
+      .testimonial-developer-image img {
+    
+        height: 250px;
+      }
+      .testimonial-main-discription p{
+        font-size: .8rem;
+      }
+      .testimonial-developer-profile h3{
+           font-size: .8rem;
+      }
+      .testimonial-developer-profile p{
+           font-size: .5rem;
+      }
+      .testimonial-main-discription img{
+        width: 25%;
+      }
+      .launch-project-section-header h1{
+           font-size: 1.5rem;
+      }
+      .launch-project-section-header p{
+        font-size: 13px;
+      }
+      .footer-all-section{
+         display: flex;
+         flex-direction: column;
+      }
+
+      .tech-logo a{
+        padding: .9rem 1rem;
+      }
+      .footer-parts{
+          width: 80%;
+      }
+      .footer-certificate{
+         width: 50%;
+      }
      
+      
+     
+}
+
+@media only screen and (max-width: 550px){
+  .media{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+    .hero{
+        padding-right: 20px;
+    }
+    .hero-header{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .launch-project-section-image{
+      display: none;
+    }
+    .heading{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 48px;
+        color: rgb(255, 255, 255);
+        margin: 0px auto 20px;
+        max-width: 718px;
+        font-family: "platformmedium";
+        
+    }
+    .request-btn a{
+        width: 90%;
+    }
+    .tech-stack-header {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .tech-stack-left {
+        width: 100%;
+      }
+      .tech-stack-right{
+        margin-top: 2rem;
+        width: 100%;
+      }
+      .developer-header h1 {
+        font-size: 1.7rem;
+      }
+      .developer-header p {
+        width: 100%;
+        font-size: 14px;
+      }
+      .reason-header h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+      .reason-header p {
+        width: 100%;
+      }
+    .global {
+        background: rgb(232, 244, 255);
+        display: flex;
+        flex-direction: column;
+      }
+      .left-global{
+        width: 100%;
+      }
+      .right-global {
+        width: 100%;
+      }
+    .developer {
+        width: 100%;
+      }
+      .reason-main-left {
+        padding: 0px;
+      }
+      .all-left-containers {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 215px;
+      }
+      .testimonial-main {
+        display: flex;
+       flex-direction: column;
+        gap: 2rem;
+      }
+      .main-first-image {
+        width: 70%;
+      }
+      .main-first-image img {
+        width: 100%;
+        height: 70%;
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+      .testimonial-main-discription {
+        width: 100%;
+      }
+      .testimonial-main-discription h1{
+        width: 100%;
+        font-size: 1rem;
+      }
+      .testimonial-main-discription p {
+        font-size: .9rem;
+      }
+      .testimonial-main-discription img {
+        width: 50%;
+      }
+      .testimonial-developer-image{
+         width: 400%;
+         height: 300px;
+      }
+      .testimonial-developer-profile {
+        width: 400%;
+        position: absolute;
+        padding: .5rem 1.5rem;
+        margin-bottom: 3rem;
+        
+      }
 }
