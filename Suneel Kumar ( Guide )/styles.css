@@ -259,27 +259,121 @@ color: #0b092f;
     
 }
 
-input {
-    border-radius: 10px;
+
+
+/* New episode section */
+#newEpisode {
+    justify-content: center;
+    margin-bottom:auto;
+    display: flex;
+    background-color: #0b092f;
+    color: #0c094a;
+    
+    padding-left: 164px;
+    padding-right: 164px;
+    background-color:#0b092f;
+    justify-content: center;
+    margin-bottom:auto;
+    display: flex;
+  }
+  
+  #newEpisode .weeks-container {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: nowrap;
+  }
+  
+  #newEpisode .weeks-container .content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding: 20px;
-    border: 1px solid #0c094a;
-    background-color: #0c094a;
-    color: #35495e;
-    border-radius: 5px;
-}
-.subscribe-btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    padding-right: 100px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    align-items: center;
+    text-align: center;
+    margin: auto 4rem;
+  }
+  
+  #newEpisode .weeks-container .content h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+    margin: 0px auto 10px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0;
+  }
+  
+  #newEpisode .weeks-container .content p {
     color: #fff;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px auto 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #newEpisode .weeks-container .content span {
+    color: #fff;
+    font-weight: 300;
+    margin: 17px auto 20px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #newEpisode .weeks-container .content .subscribe-form {
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  #newEpisode .weeks-container .content #subscriber {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    margin: 0 auto;
+    /* margin-bottom: 48px; */
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 15px;
+  }
+  
+  #newEpisode #subscriber input {
+    border: none;
+    background: transparent;
+    padding: 11px 12px;
+    font-size: 12px;
+    color: white;
+    outline: none;
+    font-weight: 400;
+    line-height: 30px;
+    width: 75%;
+  }
+  
+  #newEpisode #subscriber input ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  
+  #newEpisode #subscriber button {
+    border: none;
+    background: rgb(54, 23, 186);
+    padding: 11px 12px;
+    font-size: 12px;
+    color: #fff;
+    outline: none;
+    width: 34%;
+    font-weight: 400;
+    border-radius: 15px;
+    line-height: 30px;
     cursor: pointer;
-}
+    transition: all 0.35s ease 0s;
+  }
+  
+  #newEpisode #subscriber button:hover {
+    background: rgb(89, 194, 249);
+  }
+
 
 footer{
    
