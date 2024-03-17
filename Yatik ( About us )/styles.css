@@ -1,5 +1,775 @@
-.contair{
-    display: flex;
-    
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color:
+
+}
+.hero{
+    color: white;
+    height: 100vh;
+    background-image: url(https://remotebase.com/images/pricing/hero-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    background-position: right;
+    
+    padding-left: 30px;
+}
+.hero-words{
+    width: 40%;
+    padding-top: 100px; 
+
+}
+.hero-words h1{
+    font-size: 42px;
+}
+.hero-words h1 span{
+    color: aqua;
+}
+.hero-words p{
+    margin-bottom: 20px;
+}
+.qut{
+    display: flex;
+}
+.qut a{
+    color: white;
+    background-color: rgb(0, 81, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.im-box{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.trust{
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+    
+    
+}
+.trust h2{
+    margin-bottom: 20px;
+    
+}
+.trust-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+.trust-box h1{
+    font-family: platformmedium;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: start;
+    letter-spacing: normal;
+    padding-bottom: 161px;
+    color: #312a50;
+
+}
+.trust-box p{
+    font-family:Arial,;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    padding-bottom: 161px;
+}
+.trust img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90px;
+}
+
+.silicon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 136px;
+    padding-right: 136px;
+   
+    
+}
+.silicon h1{
+    font-family: platformmedium;
+    font-size: 40px;
+    line-height:48px;
+    color: #312a50;
+    text-align: start;
+    letter-spacing: normal;
+    padding-bottom: 40px;
+
+}
+.silicon h3{
+    font-family: platformmedium;
+    font-size: 18px;
+    line-height:30.6px;
+    color: #312a50;
+    text-align: start;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+}
+.silicon p{
+    font-family: platformmedium;
+    font-size: 18px;
+    line-height:30.5px;
+    color: #312a50;
+    text-align: start;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+}
+.silicon img{
+    margin-left: 136px;
+}
+
+
+.global{
+    background-color: rgb(232, 244, 255);
+    background-image: url(https://remotebase.com/images/overview/landing/stats-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 30px;
+}
+.info{
+    padding-top: 80px;
+    width: 50%;
+    padding-bottom: 150px;
+}
+.info h1{
+    font-size: 50px;
+    font-family: "Noto Sans Display";
+    color: rgb(1, 1, 76);
+    margin-bottom: 20px;
+}
+.info p{
+    width: 65%;
+    font-size: 16px;
+    color: rgb(45, 45, 66);
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.numbers{
+    display: flex;
+    margin-bottom: 20px;
+}
+.numbers h2{
+    font-size: 50px;
+    color: rgb(1, 1, 76);
+    margin-right: 35px;
+}
+.info a{
+    color: white;
+    background-color: rgb(0, 81, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.headline{
+    background-color: rgb(232, 244, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.headline h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.para p{
+    width: 38%;
+    color: rgb(45, 45, 66);
+}
+
+.media{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+.symbols{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    box-shadow: 0.5px 0.5px 10px 0px gray   ;
+}
+.organization{
+    background-color: rgb(232, 244, 255);
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.organization h1{
+    text-align: center;
+    color: rgb(1, 1, 76);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pa{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(45, 45, 66);
+    margin-bottom: 60px;
+}
+.grid-wrapp{
+    width: 95%;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    background-color: #0b092f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.quality{
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px;
+    gap: 15px;
+}
+.grid-1,.grid-2,.grid-3,.grid-4{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    background-color: rgb(84, 84, 150,0.2);
+    border-radius: 10px;
+}
+.grid-1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.grid-3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid-4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.up{
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.down{
+    font-size: 14px;
+    line-height: 25px;
+}
+.im{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.launch{
+    background-color: #0b092f;
+    background-image: url(https://remotebase.com/_next/image?url=%2Fimages%2Foverview%2Flanding%2Fexperience-img.webp&w=3840&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    position: relative;
+}
+.launch h1{
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.launch p{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.launch a{
+    position: absolute;
+    left: 42.5%;
+    color: white;
+    background-color: rgb(0, 81, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.remote{
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.remote h1{
+    color: #312a50;
+    text-align: start;
+    font-size: 38px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.pa-r{
+    color: #0c094a;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: start
+    margin-bottom: 40px;
+}
+.im-flex{
+    align-items: center;
+    border-radius: 1px;
+    border: 0.5px solid rgb(132, 126, 126);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box{
+    border: 1px;
+    width: 30%;
+    margin-right: 70px;
+}
+.num{
+    display: inline-block;
+    border: 0.5px solid rgb(214, 214, 214);
+    color: #312a50;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.im-flex img{
+    border:10px;
+    margin-bottom: 40px;
+    padding: 5px;;
+}
+.im-flex h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.blocks{
+    border-radius: 1px;
+}
+.im-flex{
+    font-size: 15px;
+    line-height: 24px;
+}
+.join{
+    background-color: rgb(232, 244, 255);
+    padding-top: 80px;
+}
+.join h1{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.join-para{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.white-w{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.white-b{
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 320px 320px 320px;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.icon-b{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+.icon-b i{
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0cbfaa;
+    opacity: 50%;
+    color: #01564c
+}
+.icon-b p{
+    font-size: 14px;
+}
+.three-pic{
+    width: 95%;
+    padding-left: 110px;
+    margin-right: auto;
+}
+.three-pic img{
+    background-color: rgb(232, 244, 255);
+    margin-right: 20px;
+}
+.network{
+    background-color: #180d5a;
+    background-image: url(https://remotebase.com/images/pricing/expert-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.network img{
+    width: 95%;
+    height: 100%;
+}
+.fifty-info{
+    color: white;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+.fifty-info h1{
+    margin-bottom: 20px;
+}
+.fifty-info-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+.fifty-info-w h4{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.fifty-info-w p{
+    font-size: 14px;
+}
+.client{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.client h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #312a50;
+    margin-bottom: 20px;
+}
+.client-para{
+    text-align: center;
+    color: #312a50;
+    margin-bottom: 20px;
+}
+.review-box{
+    background-color: #3617ba;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://remotebase.com/images/aboutus/layer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 250px;
+    border-radius: 10px;
+}
+.review-box i{
+    color: rgb(254, 251, 251);
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(232, 244, 255,0.3);
+}
+.read{
+    display: flex;
+    width: 90%;
+    
+}
+.small{
+    display: flex;
+    color: white;
+}
+.glass{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-right: 10px;
+}
+.large img{
+    width: 350px;
+    height: 100%;
+}
+.big{
+    width: 95%;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.pablo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 100px;
+    height: 20px;
+}
+.large{
+    border: 1px solid red;
+    position: relative;
+}
+.blur{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(59, 60, 60, 0.2);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.blur h4{
+    color: white;
+    margin-bottom: 5px;
+}
+.blur p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.blur a{
+    color: white;
+    font-size: 12px;
+}
+.tech{
+    background-color: #3617ba;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+.top h1{
+    width: 40%;
+    font-size: 38px;
+    margin-right: 150px;
+}
+.top p{
+    width: 40%;
+}
+.bottom{
+    margin-left: 30px;
+}
+.bottom-t{
+    display: flex;
+}
+.bottom-t div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-right: 30px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: rgba(243, 244, 245, 0.1);
+}
+.bottom-t img{
+    width: 30px;
+    margin-right: 10px;
+}
+.tech a{
+    position: absolute;
+    left: 42.5%;
+    color:black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 20px;   
+}
+
+
+
+.hire{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border:1px solid #0b092f;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.hire{
+    width: 33.33%
+    border: 1px solid;
+    display: flex;
+}
+
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::  Developer-Section  ::::::::::::::::::::::::::::::::::::::::  */
+
+.developer-section{
+    padding: 1rem 1rem;
+}
+.developer-header{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.developer-header h1{
+    font-size: 3rem;
+    color: #312a50;
+   
+}
+.developer-header p{
+    margin-top: 2rem;
+    color: #312a50;
+    line-height: 1.5rem;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.developer-intro{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.developer{
+    width: 30%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+
+    
+}
+.developer img{
+    width: 100%;
+    height: 300px;
+    
+    background-color: #01564c;
+}
+
+.developer-profile{ 
+   color: #;
+   position: absolute;
+   padding: .5rem 2rem;
+   left: 0;
+   bottom: 0.2rem;
+   right: 0;
+   background:rgba(250, 239, 239, 0.5);
+   
+}
+.developer-profile p{
+    font-size: 13px;
+   margin-top: 5px;
+   font-weight: 600;
+}
+.developer-btn{
+    text-align: center;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+.developer-btn a{
+    color: #fff;
+    font-weight: 600;
+    padding: 1.2rem 2rem;
+    background-color:  #3617ba;
+    border-radius: 15px;
+}
+
+/* ..... .....................footer */
+footer{
+   
+    padding: 2rem 2rem;
+    background-color: #3617ba;
+    color: #fff;
+}
+.footer-all-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-certificate{
+    display: flex;
+    gap: 1.5rem;
+}
+.social-media-icons i{
+    padding:.5rem;
+}
+.licence-one{
+  width: 45%;
+}
+.licence-one img{
+    width: 100%;
+}
+.footer-parts{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+   
+}
+.footer-parts p{
+   font-size: 13px;
+   line-height: 1.3rem;
+}
+.footer-parts a{
+    color: white;
+    font-size: 15px;
+}
+.footer-last{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
