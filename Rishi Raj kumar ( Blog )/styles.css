@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* universal selector ends here */
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    background-color: #3617ba;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+.hero nav ul{
+    display: flex;
+    padding: .2rem;
+}
+.hero nav ul li{
+    font-size: 15px;
+}
+.hero nav ul li a{
+    padding:.5rem ;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-request-btn {
+margin-left: 10px;
+ padding: 1rem 1rem;
+border: 1px solid;
+width: 30%;
+border-radius: 2rem;
+}
+.nav-request-btn:hover{
+  background-color: #fff;
+  color: black;
+  transition: .3s ease;
+}
+#rrk{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.purple{
+    background-color: rgb(54, 23, 186);
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: -122px;
+}
+.read-me-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px; /* Adjust border-radius as needed */
+    padding: 15px 45px; /* Adjust padding as needed */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-me-button:hover {
+    background-color: #59c2f9;
+}
+
+/* ::::::::::::Section hero Styling ends here:::::::::::::::: */
+.hero2 {
+    background-color: rgb(232, 244, 255);
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+.hero2 ul li a{
+    color: black;
+}
+.hero2 nav {
+    display: flex;
+    justify-content: center;
+    padding: 3.3rem;}
+.hero2 nav ul {
+        display: flex;
+        padding: 0.2rem;
+}   
+.hero2 nav ul li {
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.hero2 nav ul li a {
+    color: grey;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.5rem;
+}
+.hero2 nav .articles{
+    font-weight: bold;
+    color: #000;
+}
+.hero2 a:hover{
+    color: rgb(0, 0, 0);
+    font-size: ;
+    font-weight: bold;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+        padding-left: 30px;
+        width: 450px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        border-width: 0.5px;
+  }
+  
+  .search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-box button i {
+    color: #333;
+  }
+  .subscribe-btn nav {
+    background-color: #3617ba;
+    border-radius: 25px;
+  }
+  nav #sub-btn a{
+    padding: 20px 50px;
+  }
+  
+  /* section 2 extended :::::::::::::::::::::::::::*/
+  .search-container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the search bar horizontally */
+    margin-bottom: 19px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: #3617ba;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+.left-div, .right-div {
+    flex: 1;
+}
+
+.left-div {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.right-div {
+    text-align: center;
+    padding-right: 80px;
+    margin-right: 80px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: auto;
+}
+
+
+.container-neww {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-column-neww {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin between columns */
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin between rows */
+}
+
+#img-neww {
+    margin-left: 60px;
+    padding-left: 40px;
+    margin-right: 10px; /* Adjust margin between image and button */
+    padding-top: 60px
+}
+
+
+.btn {
+    padding: 20px 60px;
+    background-color: #3617ba;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 350px;    
+}
+
+.right-column-neww {
+    flex: 1;
+}
+
+.new{
+    padding-left: 120px;
+}
+
+.container22 {
+    display: flex;
+}
+
+.left-side22 {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+    
+}
+
+.right-side22 {
+    flex: 2;
+    padding: 20px; /* Adjust padding as needed */
+    
+}
+
+.text22 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.heading22 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content22, .footer22 {
+    margin-bottom: 10px;
+}
+  
+  /* section 3 styling ::::::::::::::::::::::::::::::::::*/
+  .container25 {
+    margin-left: 120px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title25 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .content25 {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-container25 {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .input-text25 {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .btn25 {
+    display: inline-flex;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3617ba;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn25:hover {
+    background-color: #0056b3;
+  }
+
+
+  .card {
+    margin-left: 120px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .columns {
+    display: flex;
+  }
+  
+  .column1 {
+    flex: 1;
+  }
+  
+  .column2 {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  .image {
+    margin-top: 60px;
+    width: 90px;
+    height: 90px;
+    align-items: center !important;
+    object-fit: cover;
+  }
+  
+  .details {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .lowmar{
+    margin-bottom: -20px;
+  }
+
+  .lowmar1{
+    margin-top: -20px;
+  }
+  
+
+  /* section 3 part sab lena hai */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background-color: rgb(11, 9, 47);
+}
+
+.photo-container {
+    flex: 1;
+    height: 100%;
+    margin: 0 60px; /* Adjust margin as needed */
+}
+
+.photo {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo1 {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+    flex: 2;
+    color: white;
+    text-align: center;
+}
+
+.bold{
+    font-size: 40px;
+    color: white;
+}
+
+.bold1{
+    font-size: 50px;
+    color: white;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
+
+  /* ::::::::::::::::Footer Styling Starts Here::::::::::::: */
+  footer{
+   
+    padding: 2rem 2rem;
+    background-color: #3617ba;
+    color: #fff;
+}
+.footer-all-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-certificate{
+    display: flex;
+    gap: 1.5rem;
+}
+.social-media-icons i{
+    padding:.5rem;
+}
+.licence-one{
+  width: 45%;
+}
+.licence-one img{
+    width: 100%;
+}
+.footer-parts{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+   
+}
+.footer-parts p{
+   font-size: 13px;
+   line-height: 1.3rem;
+}
+.footer-parts a{
+    font-size: 15px;
+}
+.footer-last{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
