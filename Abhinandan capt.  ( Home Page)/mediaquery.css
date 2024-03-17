@@ -1,0 +1,177 @@
+@media only screen and (max-width: 1220px) {
+    nav .nav-btn{
+        display: none;
+    }
+    .heading{
+       font-size: 1.5rem;
+    }
+    .hero-header p{
+      font-size: 14px;
+      
+    }
+    .request-btn a{
+        padding: 1rem .5rem;
+        font-weight: 500;
+        font-size: .8em;
+    }
+    .remote-talent-main h1{
+        font-size: 2.5rem;
+    }
+    .remote-talent-main p{
+        width: 70%;
+        font-size: 14px;
+    }
+    .member-work p{
+        font-size: 13px;
+    }
+    .tech-stack-left h2{
+        font-size: 1.8rem;
+    }
+    .tech-stack-right p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .left-global h1{
+        font-size: 2.5rem;
+    }
+    .left-global p{
+        font-size: 15px;
+    }
+    .tech-stack-btn a{
+        padding: 1rem 1.5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .global-btn a{
+        padding: 1rem 1rem;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .developer-header h1{
+        font-size: 2.5rem;
+    }
+    .developer-header p{
+        width: 70%;
+        font-size: 15px;
+    }
+    .reason-header h1{
+        font-size: 2rem;
+    }
+    .reason-header p{
+       width: 70%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 15px;
+       line-height: 1.5rem;
+    }
+    /* .all-left-containers{
+        width: 45%;
+    } */
+    .reason-main-right{
+      width: 80%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .main-right-image{
+        width: 100%;
+    }
+    .main-right-image img{
+        width: 100%;
+    }
+    .main-left-container{
+        width: 90%;
+    }
+    .main-left-container h1{
+        font-size: 1.3rem;
+    }
+    .main-left-container p{
+      font-size: 13px;
+    }
+    .remote-solution-section-header h1{
+        font-size:1.7rem;
+        line-height: 1rem;
+    }
+    .remote-solution-section-header p{
+        font-size: 15px;
+    }
+
+    .work-solution-technologies{
+        padding: 1.5rem;
+        gap: 4rem;
+    }
+    .work h2{
+        font-size: 1.5rem;
+    }
+    .left-global p{
+        font-size: 13px;
+    }
+    .launch-project-section-header h1{
+        font-size: 1.8rem;
+
+    }
+    .launch-project-section-header p{
+        font-size: 14px;
+
+    }
+    .launch-project-section-image img {
+        width: 100%;
+    }
+    .launch-project-btn a{
+        padding: 1rem 1rem;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .testimonial-main-discription h1 {
+        font-size: 1.2rem;
+      }
+    .footer-parts p{
+        font-size: 12px;
+    }
+    .footer-parts a{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .hero nav ul{
+        display: none;
+    }
+    .logo{
+        width: 60%;
+    }
+    .heading {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+      }
+      .hero-header p{
+        font-size: 13px;
+        line-height: 1.2rem;
+      }
+      .request-btn a{
+        padding: 1.5rem .5rem;
+        font-size: 11px;
+      }
+      .remote-talent-header h2{
+        font-size: 1.8rem;
+      }
+      .talenet-header-logos li{
+        padding: 1.5rem;
+      }
+      .remote-talent-main h1{
+        width: 80%;
+        font-size: 2rem;
+        line-height: 2.8rem;
+      }
+      .remote-talent-main p{
+        width: 80%;
+      }
+      .talented-members {
+        display: flex;
+        flex-direction: column;
+      }
+      .member{
+        width: 100%;
+      }
+     
+}

@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(12, 9, 74);
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Roboto", "Poppins";
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #hero {
   width: 100%;
   background: rgb(54, 23, 186);
@@ -11,7 +27,6 @@
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  width: 1280px;
 }
 
 #hero .content {
@@ -25,11 +40,12 @@
 #hero .content h1 {
   font-size: 46px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 auto 24px;
   text-align: center;
   line-height: 56px;
-  font-family: "Roboto";
+  /* font-family: "Roboto",sans-serif; */
+  font-family: "Avenir", sans-serif;
 }
 
 #hero .content p {
@@ -44,10 +60,10 @@
   margin-bottom: 23px;
 }
 
-#subscriber {
+#subscriber{
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 500px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -57,7 +73,7 @@
   padding: 8px 15px;
 }
 
-#subscriber input {
+#subscriber input{
   border: none;
   background: transparent;
   padding: 11px 12px;
@@ -65,24 +81,32 @@
   color: white;
   outline: none;
   font-weight: 400;
-  margin-top: 3px;
-  /* border: none; */
   line-height: 30px;
+  width: 75%;
 }
 
-#subscriber button {
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#subscriber button{
   border: none;
   background: rgb(255 255 255 / 94%);
   padding: 11px 12px;
-  font-size: 13px;
-  color: #000;
+  font-size: 12px;
+  color: rgb(49, 42, 80);
   outline: none;
+  width: 34%;
   font-weight: 400;
   border-radius: 15px;
-  /* border: none; */
   line-height: 30px;
   cursor: pointer;
-  margin-bottom: 3px;
+}
+
+/* Hover effect on button */
+#subscriber button:hover {
+  background: rgb(89, 194, 249);
 }
 
 #hero .img-container {
@@ -93,7 +117,7 @@
 }
 #hero .img-container img {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 /* Master section */
@@ -115,8 +139,8 @@
 }
 
 .master .img-container img {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  height: 100%;
   object-fit: cover;
   width: 230px;
 }
@@ -137,7 +161,7 @@
 }
 
 .text .text-heading .company {
-  color: yellow;
+  color: #fff;
   text-align: justify;
   margin-bottom: 0;
   line-height: 0;
@@ -147,9 +171,11 @@
 .text p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 150%;
+  line-height: 164%;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  max-width: 717px;
 }
 
 .spotify {
@@ -176,4 +202,352 @@
   fill: #fff;
   height: 28px;
   width: 30px;
+}
+
+/* Podcast Episode*/
+#podcast-episodes {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  font-family: "Avenir", sans-serif;
+  padding: 36px 0px 64px;
+}
+
+#podcast-episodes .section-wrapper {
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0px auto;
+}
+
+#podcast-episodes .section-wrapper .main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+#podcast-episodes .left{
+    width: 100%;
+}
+
+.left-1{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.left .heading-btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-family: "Roboto",sans-serif;
+}
+
+.heading-btn h2{
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+.btn a {
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #3617ba;
+    padding: 13px 23px;
+    border-radius: 15px;
+}
+
+.btn a span{
+    display: inline-flex;
+    
+}
+
+.btn a span svg{
+    width: 12px;
+    height: 12px;
+}
+
+.btn a span svg path{
+    fill: #fff;
+}
+
+.input{
+    position: relative;
+}
+.input .form-input {
+    width: 100%;
+    padding: 20px 10px 20px 47px;
+    outline: none;
+    border: 1px solid #ddddd6;
+}
+
+.search{
+    position: absolute;
+    top: 19px;
+    left: 19px;
+ 
+}
+
+.search svg {
+    width: 19px;
+    height: 19px;
+    opacity: 0.6;
+}
+
+.input .form-input::placeholder{
+    color: rgb(83, 82, 82);
+}
+
+
+/* Right */
+
+#podcast-episodes .right {
+        width: 70%;
+        /* width: 100%; */
+        background: rgb(232, 244, 255);
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 20px 50px 20px;
+}
+
+#podcast-episodes .right h3{
+    font-size: 21px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    font-family: "Roboto",sans-serif;
+}
+
+#podcast-episodes .right p{
+    font-weight: 300;
+    line-height: 1.4rem;
+    font-size: .8rem;
+    margin-bottom: 10px 
+}
+
+
+
+#form-right input {
+    outline: none;
+    font-weight: 400;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgb(49, 42, 80);
+    border-radius: 12px;
+    padding: 18px 28px 19px;
+    width: 100%;
+    height: 3.8rem;
+    transition: all 0.35s ease 0s;
+}
+
+#form-right button {
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(54, 23, 186);
+    border: 1px solid rgb(54, 23, 186);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 12px 36px;
+    /* min-width: 200px; */
+    text-decoration: none;
+    transition: all 0.35s ease 0s;
+    font-family: "Avenir",sans-serif;
+    min-height: 62px;
+    border-radius: 14px;
+    margin-top: 12px;
+}
+
+#form-right input::placeholder{
+    color:#000;
+}
+
+
+
+
+
+
+/* New episode section */
+#newEpisode {
+  width: 100%;
+  max-width: 1256px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0px auto;
+  background-color: rgb(12, 9, 74);
+}
+
+#newEpisode .weeks-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+#newEpisode .weeks-container .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: auto 4rem;
+}
+
+#newEpisode .weeks-container .content h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  margin: 0px auto 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0;
+}
+
+#newEpisode .weeks-container .content p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0px auto 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+#newEpisode .weeks-container .content span {
+  color: #fff;
+  font-weight: 300;
+  margin: 17px auto 20px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+#newEpisode .weeks-container .content .subscribe-form {
+  width: 80%;
+  margin-top: 10px;
+}
+
+#newEpisode .weeks-container .content #subscriber {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  margin: 0 auto;
+  /* margin-bottom: 48px; */
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 15px;
+}
+
+#newEpisode #subscriber input {
+  border: none;
+  background: transparent;
+  padding: 11px 12px;
+  font-size: 12px;
+  color: white;
+  outline: none;
+  font-weight: 400;
+  line-height: 30px;
+  width: 75%;
+}
+
+#newEpisode #subscriber input ::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#newEpisode #subscriber button {
+  border: none;
+  background: rgb(54, 23, 186);
+  padding: 11px 12px;
+  font-size: 12px;
+  color: #fff;
+  outline: none;
+  width: 34%;
+  font-weight: 400;
+  border-radius: 15px;
+  line-height: 30px;
+  cursor: pointer;
+  transition: all 0.35s ease 0s;
+}
+
+#newEpisode #subscriber button:hover {
+  background: rgb(89, 194, 249);
+}
+
+/* ::::::::::::::::::::::::::::::::::  footer-section  ::::::::::::::::::::::::::::::::::::::::  */
+
+footer {
+  padding: 2rem 2rem;
+  background-color: #3617ba;
+  color: #fff;
+}
+
+footer a {
+  font-family: "Montserrat", sans-serif;
+}
+.footer-all-section {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-certificate {
+  display: flex;
+  gap: 1.5rem;
+}
+.social-media-icons i {
+  padding: 0.5rem;
+}
+.licence-one {
+  width: 45%;
+}
+.licence-one img {
+  width: 100%;
+}
+
+.footer-parts {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  padding: 2rem 2rem;
+  gap: 1.5rem;
+}
+
+.footer-parts h3 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.footer-parts p {
+  font-size: 16px;
+  line-height: 1.6rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-parts a {
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-last {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftmost {
+  width: 35%;
+}
+
+@media only screen and (max-width: 875px) {
+  body {
+    background-color: lightblue;
+    width: fit-content;
+  }
 }
