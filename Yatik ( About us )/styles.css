@@ -1,59 +1,124 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: 0%;
+    padding: 0%;
+   
     font-family: "Open Sans", sans-serif;
-    text-decoration: none;
 }
-body{
-    background-color:
-
-}
-.hero{
-    color: white;
-    height: 100vh;
-    background-image: url(https://remotebase.com/images/pricing/hero-bg.png);
-    background-repeat: no-repeat;
-    margin-top: 120px;
-    background-position: right;
+body {
+    box-sizing: border-box;
     
-    padding-left: 30px;
+    scroll-behavior: smooth;
 }
-.hero-words{
-    width: 40%;
-    padding-top: 100px; 
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+    color: #242121;
+}
+.hero {
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.hero img{
+    
+}
+
+.hero nav{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+    background-color: #fff;
+    padding: 30px 23px;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+.hero nav ul{
+   
+    display: flex;
+    padding: .2rem;
+}
+.hero nav ul li{
+    font-size: 15px;
+}
+.hero nav ul li a{
+    padding:.5rem ;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-request-btn {
+margin-left: 10px;
+ padding: 1rem 1rem;
+border: 1px solid #312a50;
+width: 30%;
+border-radius: 1rem;
+}
+.nav-request-btn:hover{
+  background-color:#312a50;
+  color: #fff;
+  transition: .3s ease;
+}
+
+.about-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0px;
+}
+
+.heading {
+
+    text-align: center;
+    font-family: platformmedium;
+    font-size: 30px;
+    line-height:60px;
+    padding-top: 91px;
+    padding-bottom: 10px;
+  color: #312a50;
+  letter-spacing: normal;
+padding-left: 281px;
+padding-right: 281px;
+
 
 }
-.hero-words h1{
-    font-size: 42px;
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #312a50;
+    padding-bottom: 50px;
+ 
+    padding: 1px 260px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 30px;
 }
-.hero-words h1 span{
-    color: aqua;
-}
-.hero-words p{
-    margin-bottom: 20px;
-}
-.qut{
-    display: flex;
-}
-.qut a{
-    color: white;
-    background-color: rgb(0, 81, 255);
-    padding: 20px;
-    border-radius: 20px;
-}
-.im-box{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
+
+
+
 .trust{
     background-color: white;
     text-align: center;
     padding: 100px;
     
     
+}
+.row{
+    padding-left: 77px;
 }
 .trust h2{
     margin-bottom: 20px;
@@ -72,7 +137,7 @@ body{
     line-height: 57.6px;
     text-align: start;
     letter-spacing: normal;
-    padding-bottom: 161px;
+    padding-bottom: 136px;
     color: #312a50;
 
 }
@@ -88,6 +153,9 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     width: 90px;
+}
+.hed{
+    padding-right: 50px;
 }
 
 .silicon{
@@ -130,7 +198,28 @@ body{
     margin-left: 136px;
 }
 
+.remote{
+    text-align: start;
+    color: #312a50;
+}
+.remote h1{
+    padding-left: 100px;
+    font-family: platformmedium;
+    font-size: 48px;
+    color: #312a50;
+    line-height: 57.6px;
 
+}
+.paraq{
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 100px;
+    padding-right: 600px;
+    padding-top: 10px;
+    color:#312a50;
+
+}
 .global{
     background-color: rgb(232, 244, 255);
     background-image: url(https://remotebase.com/images/overview/landing/stats-img.png);
@@ -328,18 +417,30 @@ body{
     padding-bottom: 80px;
 }
 .remote h1{
+ 
+}
+.seprate{
+    
+}
+.seprate h1{
+    padding-left: 150px;
     color: #312a50;
     text-align: start;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 50px;
-    margin-bottom: 30px;
+
 }
-.pa-r{
+.seprate p
+{
+
     color: #0c094a;
     font-size: 15px;
     line-height: 28px;
-    text-align: start
-    margin-bottom: 40px;
+    text-align: start;
+    padding-left: 150px;
+    padding-right: 50%;
+  
+
 }
 .im-flex{
     align-items: center;
