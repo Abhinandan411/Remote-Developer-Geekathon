@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", "Roboto", "Poppins";
+  position: relative;
 }
 
 ul {
@@ -26,6 +27,7 @@ header {
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
+  z-index: 2;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
 }
 header nav {
@@ -52,6 +54,16 @@ header nav ul li a {
   padding: 0.5rem;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.btn-line {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  display: none;
+  color: white;
 }
 .nav-request-btn {
   margin-left: 10px;
@@ -581,7 +593,7 @@ header nav ul li a {
   background-color: antiquewhite;
   color: rgb(71, 70, 75);
   border-color: #393737;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 /* New episode section */
@@ -753,9 +765,258 @@ footer a {
   width: 35%;
 }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
     width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #newEpisode .weeks-container .content h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin: 18px auto 7px;
+  }
+
+  #newEpisode .weeks-container .content p {
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0px auto 5px;
+  }
+  #newEpisode .weeks-container .content span {
+    margin: 5px auto 5px;
+    font-size: 12px;
+  }
+  #newEpisode .weeks-container .content .subscribe-form {
+    width: 100%;
+  }
+  #newEpisode #subscriber button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  nav .nav-btn {
+    display: none;
+  }
+  .btn-line {
+    display: block;
+  }
+  nav ul li a {
+    display: none;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .hero-header p {
+    font-size: 14px;
+  }
+  .request-btn a {
+    width: 45%;
+    padding: 1rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #hero .content h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  #hero .content p {
+    font-size: 24px;
+}
+#subscriber{
+  flex-direction: column;
+}
+
+#subscriber input{
+  width: 100%;
+  font-size: 2rem;
+  padding: 25px 22px;
+}
+
+#subscriber button{
+  width: 100%;
+  font-size: 2rem;
+  padding: 25px 22px;
+}
+  #hero .img-container {
+    margin-left: 28px;
+    width: 93%;
+    flex-wrap: wrap;
+  }
+
+  .master .img-container {
+    text-align: center;
+  }
+
+  .master .img-container img {
+    width: 90%;
+    height: auto;
+  }
+
+  .master .container {
+    flex-direction: column;
+  }
+  .master .container .text .text-heading {
+    gap: 15px;
+    /* margin-bottom: 15px; */
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .text .text-heading h2 {
+    font-size: 54px;
+    margin-bottom: 17px;
+  }
+
+  .text .text-heading .company {
+    margin-bottom: 14px;
+    font-size: 24px;
+  }
+
+  .spotify {
+    justify-content: center;
+  }
+
+  .text p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #podcast-episodes .section-wrapper .main-content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .left .heading-btn {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heading-btn h2 {
+    font-size: 4.5rem;
+    line-height: 3rem;
+  }
+
+  .btn a {
+    padding: 34px 78px;
+
+    font-size: 2rem;
+  }
+
+  .btn a span svg {
+    width: 27px;
+    height: 36px;
+  }
+
+  .input .form-input {
+    font-size: 2rem;
+
+    padding: 53px 37px 49px 100px;
+  }
+
+  .input .form-input::placeholder {
+    font-size: 2rem;
+  }
+  .search svg {
+    width: 41px;
+    height: 41px;
+    opacity: 0.6;
+  }
+
+  .search {
+    position: absolute;
+    top: 53px;
+    left: 35px;
+  }
+  #podcast-episodes .right {
+    margin: auto;
+    width: 100%;
+  }
+
+  #podcast-episodes .right h3 {
+    text-align: center;
+    font-size: 61px;
+    margin-bottom: 2rem;
+  }
+
+  #podcast-episodes .right p {
+    font-weight: 400;
+    font-size: 2.2rem;
+  }
+
+  div#form-right {
+    margin: 24px 0;
+    width: 72%;
+  }
+
+  #form-right input::placeholder {
+    font-size: 2rem;
+  }
+
+  #form-right input {
+    font-size: 2rem;
+    padding: 49px 44px 40px;
+    font-size: 2rem;
+    padding: 49px 44px 40px;
+    height: 7rem;
+  }
+
+  #form-right button {
+    font-size: 32px;
+
+    padding: 38px 29px;
+  }
+  .episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: auto;
+  }
+
+  .episodes .episode {
+    flex-direction: column;
+  }
+
+  .master-tech {
+    text-align: center;
+  }
+  .master-tech img {
+    width: 70%;
+    border-radius: 13px;
+  }
+
+  .footer-all-section {
+    flex-direction: column;
+  }
+
+  .footer-parts a {
+    font-size: 24px;
+  }
+
+  .footer-parts h3 {
+    font-size: 2rem;
+  }
+  .footer-logo img {
+    height: 3rem;
+  }
+
+  .footer-parts p {
+    width: 333px;
+    font-size: 26px;
+    line-height: 1.9rem;
+  }
+
+  .social-media-icons a {
+    font-size: 40px;
+  }
+
+  .social-media-icons i {
+    padding: 1.5rem;
   }
 }
