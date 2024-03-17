@@ -24,7 +24,7 @@ a{
     background-position: center;
   
 }
-.hero img{
+.loc{
     
 }
 
@@ -157,6 +157,55 @@ padding-right: 281px;
 .hed{
     padding-right: 50px;
 }
+.ceo{
+    display: flex;
+    justify-content: space-between;
+    background-color:#e8f4ff;
+   
+
+
+}
+
+.request-btn {
+
+    margin-bottom: 16px;
+    color: white;
+    background-color: #3617ba;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 10px;
+    padding: 1rem 1rem;
+    border: 1px solid #312a50;
+    width: 30%;
+    border-radius: 16px;
+    }
+    .request-btn:hover{
+      transition: .3s ease;
+    }
+.rightdiv{
+    padding-right: 132px;
+    padding-left: 136px;
+    padding-top: 136px;
+
+}
+.rightdiv h1{
+
+    color:#312a50;
+   
+    font-size: 32px;
+    line-height: 38.4px;
+}
+.rightdiv p{
+    padding-top: 15px;
+    color:#312a50;
+}
+.leftdiv{
+
+    padding-top: 107px;
+    padding-left: 136px;
+    padding-bottom: 107px;
+}
 
 .silicon{
     display: flex;
@@ -220,13 +269,7 @@ padding-right: 281px;
     color:#312a50;
 
 }
-.global{
-    background-color: rgb(232, 244, 255);
-    background-image: url(https://remotebase.com/images/overview/landing/stats-img.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-left: 30px;
-}
+
 .info{
     padding-top: 80px;
     width: 50%;
@@ -604,6 +647,7 @@ padding-right: 281px;
     border-radius: 10px;
 }
 .review-box i{
+
     color: rgb(254, 251, 251);
     margin-top: 300px;
     margin-right: 20px;
