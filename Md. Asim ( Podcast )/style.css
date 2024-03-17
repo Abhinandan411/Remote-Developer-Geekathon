@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", "Roboto", "Poppins";
+  position: relative;
 }
 
 ul {
@@ -18,6 +19,112 @@ ul {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+header {
+  background: rgb(54, 23, 186);
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem;
+  font-family: "Poppins";
+}
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70%;
+}
+
+header nav ul {
+  display: flex;
+  padding: 0.2rem;
+  gap: 4px;
+}
+header nav ul li {
+  font-size: 13px;
+}
+header nav ul li a {
+  padding: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-line {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  display: none;
+  color: white;
+}
+.nav-request-btn {
+  margin-left: 10px;
+  padding: 1rem 1rem;
+  border: 1px solid;
+  /* width: 30%; */
+  font-size: 13px;
+  border-radius: 2rem;
+}
+.nav-request-btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s ease;
+}
+.hero-header {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.heading span {
+  color: aqua;
+}
+.hero-header p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.request-btn {
+  text-align: center;
+}
+.request-btn a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 1.2rem 1rem;
+  border: 1px solid;
+  width: 30%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  background-color: #3617ba;
+  border: 1px solid #3617ba;
+}
+
+.dev {
+  font-size: 13px;
+  padding: 1rem 1rem;
+  /* border: 1px solid; */
+}
+
+.dev:hover {
+  border: 1px solid rgb(54, 44, 44);
+  background-color: #3928d2;
+  border-radius: 15px;
 }
 
 #hero {
@@ -60,7 +167,7 @@ a {
   margin-bottom: 23px;
 }
 
-#subscriber{
+#subscriber {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -73,7 +180,7 @@ a {
   padding: 8px 15px;
 }
 
-#subscriber input{
+#subscriber input {
   border: none;
   background: transparent;
   padding: 11px 12px;
@@ -90,7 +197,7 @@ a {
   opacity: 0.5;
 }
 
-#subscriber button{
+#subscriber button {
   border: none;
   background: rgb(255 255 255 / 94%);
   padding: 11px 12px;
@@ -220,161 +327,274 @@ a {
 }
 
 #podcast-episodes .section-wrapper .main-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 50px;
-    margin-bottom: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 70px;
 }
 
-#podcast-episodes .left{
-    width: 100%;
+#podcast-episodes .left {
+  width: 100%;
 }
 
-.left-1{
-    display: flex;
-    flex-direction: column;
-    gap: 33px;
+.left-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-bottom: 33px;
 }
 
 .left .heading-btn {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-    font-family: "Roboto",sans-serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  font-family: "Roboto", sans-serif;
 }
 
-.heading-btn h2{
-    font-size: 2.5rem;
-    line-height: 2rem;
+.heading-btn h2 {
+  font-size: 2.5rem;
+  line-height: 2rem;
 }
 
 .btn a {
-    justify-content: center;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background-color: #3617ba;
-    padding: 13px 23px;
-    border-radius: 15px;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #3617ba;
+  padding: 13px 23px;
+  border-radius: 15px;
 }
 
-.btn a span{
-    display: inline-flex;
-    
+.btn a span {
+  display: inline-flex;
 }
 
-.btn a span svg{
-    width: 12px;
-    height: 12px;
+.btn a span svg {
+  width: 12px;
+  height: 12px;
 }
 
-.btn a span svg path{
-    fill: #fff;
+.btn a span svg path {
+  fill: #fff;
 }
 
-.input{
-    position: relative;
+.input {
+  position: relative;
 }
 .input .form-input {
-    width: 100%;
-    padding: 20px 10px 20px 47px;
-    outline: none;
-    border: 1px solid #ddddd6;
+  width: 100%;
+  padding: 20px 10px 20px 47px;
+  outline: none;
+  border: 1px solid #ddddd6;
 }
 
-.search{
-    position: absolute;
-    top: 19px;
-    left: 19px;
- 
+.search {
+  position: absolute;
+  top: 19px;
+  left: 19px;
 }
 
 .search svg {
-    width: 19px;
-    height: 19px;
-    opacity: 0.6;
+  width: 19px;
+  height: 19px;
+  opacity: 0.6;
 }
 
-.input .form-input::placeholder{
-    color: rgb(83, 82, 82);
+.input .form-input::placeholder {
+  color: rgb(83, 82, 82);
 }
-
 
 /* Right */
 
 #podcast-episodes .right {
-        width: 70%;
-        /* width: 100%; */
-        background: rgb(232, 244, 255);
-        border-radius: 9px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 60px 20px 50px 20px;
+  width: 70%;
+  background: rgb(232, 244, 255);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 20px 50px 20px;
+  margin-top: 82px;
 }
 
-#podcast-episodes .right h3{
-    font-size: 21px;
-    letter-spacing: -1px;
-    margin-bottom: 10px;
-    font-family: "Roboto",sans-serif;
+#podcast-episodes .right h3 {
+  font-size: 21px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
-#podcast-episodes .right p{
-    font-weight: 300;
-    line-height: 1.4rem;
-    font-size: .8rem;
-    margin-bottom: 10px 
+#podcast-episodes .right p {
+  font-weight: 300;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
 }
-
-
 
 #form-right input {
-    outline: none;
-    font-weight: 400;
-    font-size: 13px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgb(49, 42, 80);
-    border-radius: 12px;
-    padding: 18px 28px 19px;
-    width: 100%;
-    height: 3.8rem;
-    transition: all 0.35s ease 0s;
+  outline: none;
+  font-weight: 400;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgb(49, 42, 80);
+  border-radius: 12px;
+  padding: 18px 28px 19px;
+  width: 100%;
+  height: 3.8rem;
+  transition: all 0.35s ease 0s;
 }
 
 #form-right button {
-    width: 100%;
-    font-weight: bold;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    background: rgb(54, 23, 186);
-    border: 1px solid rgb(54, 23, 186);
-    display: inline-flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 12px 36px;
-    /* min-width: 200px; */
-    text-decoration: none;
-    transition: all 0.35s ease 0s;
-    font-family: "Avenir",sans-serif;
-    min-height: 62px;
-    border-radius: 14px;
-    margin-top: 12px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background: rgb(54, 23, 186);
+  border: 1px solid rgb(54, 23, 186);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 12px 36px;
+  /* min-width: 200px; */
+  text-decoration: none;
+  transition: all 0.35s ease 0s;
+  font-family: "Avenir", sans-serif;
+  min-height: 62px;
+  border-radius: 14px;
+  margin-top: 12px;
 }
 
-#form-right input::placeholder{
-    color:#000;
+#form-right input::placeholder {
+  color: #000;
 }
 
+.episodes {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-y: auto;
+  height: 192px;
+}
 
+.episodes .episode {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
 
+.master-tech {
+  width: 100%;
+}
 
+.master-tech img {
+  width: 100%;
+  border-radius: 13px;
+}
 
+.episode .text-content {
+  padding: 0 19px;
+}
+
+.text-content h3 {
+  font-size: 22px;
+  line-height: 22px;
+  color: rgb(49, 42, 80);
+  margin-bottom: 8px;
+}
+
+.text-content p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgb(49, 42, 80);
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.text-content p a {
+  color: rgb(54, 23, 186);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 0.3rem;
+}
+
+.text-content .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* position: relative; */
+}
+
+.bottom .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.text-content .bottom .share {
+  font-weight: 400;
+  font-size: 12.9829px;
+  line-height: 18px;
+  color: rgb(49, 42, 80);
+  flex-shrink: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: rgb(236, 232, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 9px;
+  gap: 7px;
+  transition: all 0.35s ease 0s;
+}
+
+.text-content .bottom .timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 99px;
+  margin-top: 10px;
+  margin-left: 100px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bottom .timer .time {
+  font-weight: 400;
+  font-size: 14.8376px;
+  line-height: 20px;
+  color: rgb(162, 162, 162);
+}
+
+/* Previos button css*/
+.previous {
+  width: 100%;
+  text-align: center;
+}
+
+.previous button {
+  border-radius: 16px;
+  min-width: 133px;
+  min-height: 48px;
+  background: rgb(54, 23, 186);
+  border-color: rgb(54, 23, 186);
+  color: white;
+  margin: 0px 1rem;
+  font-weight: 700;
+}
+
+.previous .pre {
+  background-color: antiquewhite;
+  color: rgb(71, 70, 75);
+  border-color: #393737;
+  /* opacity: 0.5; */
+}
 
 /* New episode section */
 #newEpisode {
@@ -545,9 +765,258 @@ footer a {
   width: 35%;
 }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
     width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #newEpisode .weeks-container .content h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin: 18px auto 7px;
+  }
+
+  #newEpisode .weeks-container .content p {
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0px auto 5px;
+  }
+  #newEpisode .weeks-container .content span {
+    margin: 5px auto 5px;
+    font-size: 12px;
+  }
+  #newEpisode .weeks-container .content .subscribe-form {
+    width: 100%;
+  }
+  #newEpisode #subscriber button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  nav .nav-btn {
+    display: none;
+  }
+  .btn-line {
+    display: block;
+  }
+  nav ul li a {
+    display: none;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .hero-header p {
+    font-size: 14px;
+  }
+  .request-btn a {
+    width: 45%;
+    padding: 1rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #hero .content h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  #hero .content p {
+    font-size: 24px;
+}
+#subscriber{
+  flex-direction: column;
+}
+
+#subscriber input{
+  width: 100%;
+  font-size: 2rem;
+  padding: 25px 22px;
+}
+
+#subscriber button{
+  width: 100%;
+  font-size: 2rem;
+  padding: 25px 22px;
+}
+  #hero .img-container {
+    margin-left: 28px;
+    width: 93%;
+    flex-wrap: wrap;
+  }
+
+  .master .img-container {
+    text-align: center;
+  }
+
+  .master .img-container img {
+    width: 90%;
+    height: auto;
+  }
+
+  .master .container {
+    flex-direction: column;
+  }
+  .master .container .text .text-heading {
+    gap: 15px;
+    /* margin-bottom: 15px; */
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .text .text-heading h2 {
+    font-size: 54px;
+    margin-bottom: 17px;
+  }
+
+  .text .text-heading .company {
+    margin-bottom: 14px;
+    font-size: 24px;
+  }
+
+  .spotify {
+    justify-content: center;
+  }
+
+  .text p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #podcast-episodes .section-wrapper .main-content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .left .heading-btn {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heading-btn h2 {
+    font-size: 4.5rem;
+    line-height: 3rem;
+  }
+
+  .btn a {
+    padding: 34px 78px;
+
+    font-size: 2rem;
+  }
+
+  .btn a span svg {
+    width: 27px;
+    height: 36px;
+  }
+
+  .input .form-input {
+    font-size: 2rem;
+
+    padding: 53px 37px 49px 100px;
+  }
+
+  .input .form-input::placeholder {
+    font-size: 2rem;
+  }
+  .search svg {
+    width: 41px;
+    height: 41px;
+    opacity: 0.6;
+  }
+
+  .search {
+    position: absolute;
+    top: 53px;
+    left: 35px;
+  }
+  #podcast-episodes .right {
+    margin: auto;
+    width: 100%;
+  }
+
+  #podcast-episodes .right h3 {
+    text-align: center;
+    font-size: 61px;
+    margin-bottom: 2rem;
+  }
+
+  #podcast-episodes .right p {
+    font-weight: 400;
+    font-size: 2.2rem;
+  }
+
+  div#form-right {
+    margin: 24px 0;
+    width: 72%;
+  }
+
+  #form-right input::placeholder {
+    font-size: 2rem;
+  }
+
+  #form-right input {
+    font-size: 2rem;
+    padding: 49px 44px 40px;
+    font-size: 2rem;
+    padding: 49px 44px 40px;
+    height: 7rem;
+  }
+
+  #form-right button {
+    font-size: 32px;
+
+    padding: 38px 29px;
+  }
+  .episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: auto;
+  }
+
+  .episodes .episode {
+    flex-direction: column;
+  }
+
+  .master-tech {
+    text-align: center;
+  }
+  .master-tech img {
+    width: 70%;
+    border-radius: 13px;
+  }
+
+  .footer-all-section {
+    flex-direction: column;
+  }
+
+  .footer-parts a {
+    font-size: 24px;
+  }
+
+  .footer-parts h3 {
+    font-size: 2rem;
+  }
+  .footer-logo img {
+    height: 3rem;
+  }
+
+  .footer-parts p {
+    width: 333px;
+    font-size: 26px;
+    line-height: 1.9rem;
+  }
+
+  .social-media-icons a {
+    font-size: 40px;
+  }
+
+  .social-media-icons i {
+    padding: 1.5rem;
   }
 }
