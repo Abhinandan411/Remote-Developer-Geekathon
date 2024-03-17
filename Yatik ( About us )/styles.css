@@ -166,6 +166,80 @@ padding-right: 281px;
 
 }
 
+
+
+.img-flex{
+    display: flex;
+}
+.img-flex div{
+    padding: 30px 40px;
+    width: 70%;
+    background-color: #f2f6fc;
+}
+.img-flex div h3{
+    font-size: 20px;
+    color: #312a50;
+    margin-bottom: 10px;
+}
+.img-flex div p{
+    font-size: 14px;
+    color: #312a50;
+    margin-bottom: 20px;
+}
+.img-flex div a{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 16px 55px;
+    background-color: #3617ba;
+    border-radius: 20px;
+}
+.trial{
+    padding: 70px 30px;
+}
+.trial h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #312a50;
+    margin-bottom: 15px;
+}
+.top-para{
+    width: 50%;
+    line-height: 27px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-box{
+    border: 1px groove;
+    padding: 60px 48px 32px;
+}
+.im{
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.im img{
+    width: 30px;
+    height: 30px;  
+}
+.grid-box h2{
+    font-size: 22px;
+    color: #312a50;
+    margin-bottom: 8px;
+}
+.grid-box p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #312a50;
+}
+
 .request-btn {
 
     margin-bottom: 16px;
