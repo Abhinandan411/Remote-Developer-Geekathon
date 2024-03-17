@@ -20,6 +20,101 @@ a {
   color: #fff;
 }
 
+header {
+  background: rgb(54, 23, 186);
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem;
+  font-family: "Poppins";
+}
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70%;
+}
+
+header nav ul {
+  display: flex;
+  padding: 0.2rem;
+  gap: 4px;
+}
+header nav ul li {
+  font-size: 13px;
+}
+header nav ul li a {
+  padding: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-request-btn {
+  margin-left: 10px;
+  padding: 1rem 1rem;
+  border: 1px solid;
+  /* width: 30%; */
+  font-size: 13px;
+  border-radius: 2rem;
+}
+.nav-request-btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s ease;
+}
+.hero-header {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.heading span {
+  color: aqua;
+}
+.hero-header p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.request-btn {
+  text-align: center;
+}
+.request-btn a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 1.2rem 1rem;
+  border: 1px solid;
+  width: 30%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  background-color: #3617ba;
+  border: 1px solid #3617ba;
+}
+
+.dev {
+  font-size: 13px;
+  padding: 1rem 1rem;
+  /* border: 1px solid; */
+}
+
+.dev:hover {
+  border: 1px solid rgb(54, 44, 44);
+  background-color: #3928d2;
+  border-radius: 15px;
+}
+
 #hero {
   width: 100%;
   background: rgb(54, 23, 186);
@@ -400,12 +495,19 @@ a {
 }
 
 .text-content p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
   color: rgb(49, 42, 80);
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   text-align: justify;
+}
+
+.text-content p a {
+  color: rgb(54, 23, 186);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 0.3rem;
 }
 
 .text-content .bottom {
@@ -456,6 +558,30 @@ a {
   font-size: 14.8376px;
   line-height: 20px;
   color: rgb(162, 162, 162);
+}
+
+/* Previos button css*/
+.previous {
+  width: 100%;
+  text-align: center;
+}
+
+.previous button {
+  border-radius: 16px;
+  min-width: 133px;
+  min-height: 48px;
+  background: rgb(54, 23, 186);
+  border-color: rgb(54, 23, 186);
+  color: white;
+  margin: 0px 1rem;
+  font-weight: 700;
+}
+
+.previous .pre {
+  background-color: antiquewhite;
+  color: rgb(71, 70, 75);
+  border-color: #393737;
+  opacity: 0.5;
 }
 
 /* New episode section */
