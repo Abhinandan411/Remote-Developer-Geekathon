@@ -17,20 +17,21 @@ a{
     color: #242121;
 }
 .hero {
-    /* background: url(./assets/demo-pg.png) no-repeat center; */
-    background-color: #f20000;
     background-image: url(./assets/demo-pg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     max-width: 100%;
     height: auto;
-
-   
 }
+
 .hero nav{
    
     display: flex;
     justify-content: space-between;
     padding: 1rem ;
     background-color: #fff;
+    padding: 30px 23px;
 }
 .logo{
     margin-top: auto;
@@ -98,36 +99,6 @@ border-radius: 1rem;
     width: 39%;
     height: auto;
 }
-
-/* .swiper-slide1 {
-    width: 20%;
-    height: 40vh;
-    background-color: #ff0000;
-}
-.swiper-slide2 {
-    width: 20%;
-    height: 40vh;
-    background-color: #14b914;
-}
-
-.swiper-slide3 {
-    width: 20%;
-    height: 40vh;
-    background-color: #0066ff;
-}
-
-.swiper-slide4 {
-    width: 20%;
-    height: 40vh;
-    background-color: #ff0088;
-}
-
-.swiper-slide5 {
-    width: 20%;
-    height: 40vh;
-    background-color: #00d9ff;
-} */
-
 
 /* ::::::::::::::::::::::::::::::::::  Partner -section  ::::::::::::::::::::::::::::::::::::::::  */
 .partner {
@@ -439,30 +410,3 @@ footer{
     color: #fff;
 }
 
-
-@media screen and (max-width:830px){
-
-    .footer-all-section{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center ;
-        width: 100%;
-    }
-    .footer-parts{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        font-size: 3rem;
-    }
-    .footer-logo a{
-        font-size: 5rem;
-    }
-    .footer-logo img{
-        width: 35%;
-    }
-    .footer-parts p{
-        font-size: 1.3rem;
-        line-height: 1.7rem;
-    }
-}
