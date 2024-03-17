@@ -555,28 +555,22 @@ border:1px solid #3617ba;
     line-height: 1.5rem;
     font-size: 1.2rem;
 }
-
-.work-solution-technologies{
-   display: flex;
-   padding: 2rem;
-   justify-content: center;
-   align-items: center;
+.media{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
 }
-.technology{
-    width: 23%;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-.technology a{
-    background-color:#fff;
-    padding: 3rem 3rem;
-
-}
-.technology img{
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
+.symbols{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    box-shadow: 0.5px 0.5px 10px 0px gray   ;
 }
 
 /* ::::::::::::::::::::::::::::::::::  launch-project-section  ::::::::::::::::::::::::::::::::::::::::  */
