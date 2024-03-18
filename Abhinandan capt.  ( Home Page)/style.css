@@ -52,6 +52,10 @@ border-radius: 2rem;
   color: black;
   transition: .3s ease;
 }
+
+.hamburger{
+   display: none;
+}
 .hero-header{
     width: 55%;
     margin-left: auto;

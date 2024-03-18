@@ -114,6 +114,7 @@
     font-size: 50px;
     font-weight: bold;
     padding: 90px;
+    height: 100vh;
   }
   .Upara{
     padding: 3rem 4rem;
@@ -129,4 +130,41 @@
   #pPara {
     font-size: 22px;
     color: rgb(240, 239, 237);
+  }
+
+
+
+
+  @media screen and (max-width:991px) {
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+  }
+  @media screen and (max-width:467px) {
+    .container {
+      width: 114%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: baseline;
+    }
+    #continue {
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      width: 100%;
+    }
+    .google-logo{
+      width: 250px;
+    }
+    #g-logo {
+      width: 9%;
+      margin-left: 15px;
+    }  
   }
