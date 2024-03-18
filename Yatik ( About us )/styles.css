@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  text-decoration: none;
-=======
 
 * {
     margin: 0%;
@@ -25,6 +17,140 @@ a{
     text-decoration: none;
     color: #242121;
 }
+
+/* Talents */
+#talents {
+  background: url(assets/talent-bg.png) center center / cover no-repeat;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 57px 0px 60px;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+#talents .container {
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  /* position: static; */
+  /* z-index: 2; */
+}
+
+#talents .talent-grids {
+  width: 100%;
+  max-width: 1228px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  /* flex-grow: 1; */
+  margin-left: auto;
+}
+
+.talent-grids .item1 {
+  margin-left: 0;
+  margin-top: 22px;
+}
+
+.talent-grids .item2 {
+  align-self: flex-end;
+  margin-top: 17rem;
+}
+
+.talent-grids .item3 {
+  margin-top: 4rem;
+  /* margin-left: auto; */
+}
+.talent-grids .item4 {
+  margin-bottom: 3rem;
+  margin-left: auto;
+}
+
+#talents .talent-grids .items {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  /* margin-left: auto; */
+  margin-right: auto;
+}
+
+.talent-grids .items .logo {
+  width: 100%;
+  border-radius: 3px;
+  position: relative;
+}
+
+.talent-grids .items .text-content {
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 88.96%);
+  backdrop-filter: blur(4.26795px);
+  border-radius: 0px 0px 2.66747px 2.66747px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -179px;
+  padding: 10px 10px 18px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 9.57553px;
+  line-height: 130%;
+  letter-spacing: 0.0933614px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  /* font-family: platformmedium; */
+  margin: 0px 0px 3px;
+}
+
+.text-content div {
+  font-weight: 500;
+  font-size: 6.40193px;
+  line-height: 130%;
+  color: rgb(242, 242, 242);
+  margin-bottom: 5px;
+}
+
+.text-content p {
+  font-weight: 400;
+  font-size: 5.33494px;
+  line-height: 130%;
+  color: rgb(242, 242, 242);
+  margin: 0px;
+}
+
+.talent-btn {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(143, 143, 143, 0.25) 0px 15.1634px 34.7494px;
+  border-radius: 12.6361px;
+  padding: 12px 12px 12px 19px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  min-width: 100px;
+  right: -52px;
+  top: 86px;
+}
+
+.badge {
+  top: 95px;
+  right: 118px;
+}
+
+.talent-btn div {
+  font-size: 14px;
+}
+
+
+/*  */
 .hero {
 
     
@@ -161,7 +287,6 @@ padding-right: 281px;
     margin-left: 20px;
     margin-right: 20px;
     width: 90px;
->>>>>>> f8ff8c7cfa3d6999b9dffdd038c6edad79dc0c8f
 }
 .hed{
     padding-right: 50px;
@@ -290,36 +415,12 @@ padding-right: 281px;
     padding-bottom: 107px;
 }
 
-/* Talents */
-#talents {
-  background: url(assets/talent-bg.png) center center / cover no-repeat;
-  width: 100%;
-  /* height: 100vh; */
-  padding: 57px 0px 60px;
-  min-height: 550px;
-  display: flex;
-  flex-direction: column;
-}
-
-<<<<<<< HEAD
-#talents .container {
-  width: 100%;
-  padding-left: 32px;
-  padding-right: 32px;
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  /* flex-grow: 1; */
-  /* position: static; */
-  /* z-index: 2; */
-=======
 .remote{
     text-align: start;
     color: #312a50;
 }
 .remote h1{
     padding-left: 100px;
-    font-family: platformmedium;
     font-size: 48px;
     color: #312a50;
     line-height: 57.6px;
@@ -387,143 +488,6 @@ padding-right: 281px;
 .para p{
     width: 38%;
     color: rgb(45, 45, 66);
->>>>>>> f8ff8c7cfa3d6999b9dffdd038c6edad79dc0c8f
-}
-
-#talents .talent-grids {
-  width: 100%;
-  max-width: 1228px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  /* flex-grow: 1; */
-  margin-left: auto;
-}
-
-.talent-grids .item1 {
-  margin-left: 0;
-  margin-top: 22px;
-}
-
-.talent-grids .item2 {
-  align-self: flex-end;
-  margin-top: 17rem;
-}
-
-.talent-grids .item3 {
-  margin-top: 4rem;
-  /* margin-left: auto; */
-}
-<<<<<<< HEAD
-.talent-grids .item4 {
-  margin-bottom: 3rem;
-  margin-left: auto;
-}
-
-#talents .talent-grids .items {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-  /* margin-left: auto; */
-  margin-right: auto;
-=======
-.remote h1{
- 
-}
-.seprate{
-    
-}
-.seprate h1{
-    padding-left: 150px;
-    color: #312a50;
-    text-align: start;
-    font-size: 30px;
-    line-height: 50px;
-
-}
-.seprate p
-{
-
-    color: #0c094a;
-    font-size: 15px;
-    line-height: 28px;
-    text-align: start;
-    padding-left: 150px;
-    padding-right: 50%;
-  
-
->>>>>>> f8ff8c7cfa3d6999b9dffdd038c6edad79dc0c8f
-}
-
-.talent-grids .items .logo {
-  width: 100%;
-  border-radius: 3px;
-  position: relative;
-}
-
-.talent-grids .items .text-content {
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 88.96%);
-  backdrop-filter: blur(4.26795px);
-  border-radius: 0px 0px 2.66747px 2.66747px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: -179px;
-  padding: 10px 10px 18px;
-}
-
-h6 {
-  font-weight: 500;
-  font-size: 9.57553px;
-  line-height: 130%;
-  letter-spacing: 0.0933614px;
-  color: rgb(255, 255, 255);
-  text-transform: capitalize;
-  /* font-family: platformmedium; */
-  margin: 0px 0px 3px;
-}
-
-.text-content div {
-  font-weight: 500;
-  font-size: 6.40193px;
-  line-height: 130%;
-  color: rgb(242, 242, 242);
-  margin-bottom: 5px;
-}
-
-.text-content p {
-  font-weight: 400;
-  font-size: 5.33494px;
-  line-height: 130%;
-  color: rgb(242, 242, 242);
-  margin: 0px;
-}
-
-.talent-btn {
-  background: rgb(255, 255, 255);
-  box-shadow: rgba(143, 143, 143, 0.25) 0px 15.1634px 34.7494px;
-  border-radius: 12.6361px;
-  padding: 12px 12px 12px 19px;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  position: absolute;
-  min-width: 100px;
-  right: -52px;
-  top: 86px;
-}
-
-.badge {
-  top: 95px;
-  right: 118px;
-}
-
-.talent-btn div {
-  font-size: 14px;
 }
 
 /*  */
@@ -646,12 +610,11 @@ h6 {
   background-position: right;
   padding-left: 30px;
 }
-<<<<<<< HEAD
 .info {
   padding-top: 80px;
   width: 50%;
   padding-bottom: 150px;
-=======
+}
 .review-box i{
 
     color: rgb(254, 251, 251);
@@ -665,7 +628,6 @@ h6 {
     width: 40px;
     border-radius: 50%;
     background-color: rgba(232, 244, 255,0.3);
->>>>>>> f8ff8c7cfa3d6999b9dffdd038c6edad79dc0c8f
 }
 .info h1 {
   font-size: 50px;
@@ -915,7 +877,7 @@ h6 {
   padding: 80px 0px;
   display: flex;
   height: auto;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 #developers .dev-container {
@@ -1117,6 +1079,7 @@ h6 {
   padding-right: 30px;
   padding-bottom: 250px;
   border-radius: 10px;
+  margin-bottom: 4rem;
 }
 .review-box i {
   color: rgb(254, 251, 251);
