@@ -144,6 +144,9 @@
       grid-template-columns:1fr 1fr;
       gap: 30px;
     }
+    .hamburger{
+        display: block;
+    }
     .hero nav ul li{
         display: none;
       }
@@ -313,28 +316,22 @@
     .left-div, .right-div {
         flex: none;
     }
-    /* 
-.container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
-    margin-bottom: -180px;
-} */
+    .hamburger{
+        display: block;
+    }
     .container2 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         height: 100vh;
-        margin-bottom: -220px;
+        margin-bottom: -200px;
     }
     .left-div {
         text-align: left;
         margin-left: 10px;
         margin-right: 45px;
-        margin-bottom: 0px;
+        margin-bottom: 38px;
         /* padding-bottom: 60px; */
         padding-left: 28px;
         padding-right: 38px;
@@ -494,5 +491,4 @@
     height: 90%;
     background-color: rgb(11, 9, 47);
 }
-
 }
