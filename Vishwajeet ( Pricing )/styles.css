@@ -421,7 +421,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .review-box i{
     color: rgb(254, 251, 251);
@@ -472,7 +472,6 @@ body{
     height: 20px;
 }
 .large{
-    border: 1px solid red;
     position: relative;
 }
 .blur{
@@ -541,7 +540,7 @@ body{
 .tech a{
     position: absolute;
     left: 42.5%;
-    color: black;
+    color: #312a50;
     font-size: 14px;
     font-weight: 700;
     background-color: white;
@@ -551,4 +550,8 @@ body{
     padding-right: 30px;
     border-radius: 20px;
     margin-top: 20px;   
+}
+.tech a:hover{
+    background-color: #312a50;
+    color: white;
 }
