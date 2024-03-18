@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  .container{
+    width: 100%;
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+  }
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 7rem;
+    width: 50%;
+  }
+  .image{
+    width: 100%;
+  }
+  #signup-form{
+    font-size: 45px;
+  }
+  .google-section img{
+      width: 10%;
+      gap: 5px;
+  }
+  #img{
+    margin-top: 4rem;
+    width: 250px;
+    gap: 4px;
+  }
+  #signup-form{
+    margin-top: 3rem;
+    width: 50%;
+  }
+  .title{
+    margin-top: 1.5rem;
+  }
+  .google-logo{
+    margin-top: 2rem;
+    width: 502px;
+    border: 1px solid black;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.3rem;
+  }
+  #g-logo{
+    width: 8%;
+    margin-left: 100px;
+  }
+  .google-section{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top: 2rem;
+    border-radius: 20px;
+  }
+  .line p{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .title{
+    font-size: 22px;
+  }
+  #continue {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    width: 100%;
+  }
+  .line{
+   margin-left: 160px;
+  }
+  #email{
+    padding: 20px;
+    width: 473px;
+    border-radius: 27px;
+    margin-top: 17px;
+    margin-bottom: 2rem;
+  }
+  #password{
+    padding: 20px;
+    width: 473px;
+    border-radius: 27px;
+    margin-top: 17px;
+    margin-bottom: 1rem;
+  }
+  .already{
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    font-size: 18px;
+  }
+  #sinup{
+   /* margin: 7px 23px;  */
+   padding: 20px;
+   border-radius: 27px;
+   background-color: rgb(72, 72, 233);
+   color: white;
+   font-size: 17px;
+   width: 520px;
+  }
+  .side-image{ 
+    width: 50%;
+    background-color: rgb(72, 72, 233);
+    padding: 1rem 3rem;
+    color:burlywood;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 90px;
+  }
+  .Upara{
+    padding: 3rem 4rem;
+    color: white;
+    background-color: rgb(94, 121, 193);
+    border-radius: 30px;
+  }
+  #Uimg{
+    width: 120%;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  #pPara{
+    font-size: 40px;
+    color: rgb(240, 239, 237);
+  }
