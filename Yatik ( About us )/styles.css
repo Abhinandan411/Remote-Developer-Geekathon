@@ -221,13 +221,16 @@ h6 {
   letter-spacing: normal;
   color: #312a50;
   padding-bottom: 50px;
-
   padding: 1px 260px;
   text-align: center;
   font-weight: 400;
   font-size: 22px;
   line-height: 130%;
   margin-bottom: 30px;
+}
+
+.paragraph p{
+  font-size: large;
 }
 
 .trust {
