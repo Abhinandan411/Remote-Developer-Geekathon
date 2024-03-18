@@ -5,9 +5,67 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+nav a img{
+    width: 200px;
+    margin-right: 30px;
+}
+.list{
+    display: flex;
+    margin-right: 30px;
+}
+.list p{
+    margin: 0px 1px;
+    width: 80px;
+    padding: 0;
+}
+.list p a{
+    font-size: 13px;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    color: #312a50;
+} 
+.list p a:hover{
+    font-weight: 700;
+}
+.nav-a{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.nav-a p{
+    margin-right: 5px;
+}
+.can{
+    color: #312a50;
+    font-size: 13px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #312a50;
+}
+.ap{
+    font-size: 13px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #312a50;
+}
+.ap:hover{
+    border: 1px solid #312a50;
+}
+.can:hover{
+    background-color: #312a50;
+    color: white;
+}
 .talent{
     display: flex;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 80px;
