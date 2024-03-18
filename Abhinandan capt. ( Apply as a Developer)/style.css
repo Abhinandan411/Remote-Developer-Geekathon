@@ -147,12 +147,12 @@
   }
   @media screen and (max-width:467px) {
     .container {
-      width: 114%;
+      width: 100%;
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: baseline;
+      align-items: start;
     }
     #continue {
       text-decoration: none;
@@ -166,5 +166,65 @@
     #g-logo {
       width: 9%;
       margin-left: 15px;
-    }  
+    }
+    .signup-form {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 3rem;
+      width: 75%;
+    }
+    #signup-form {
+      margin-top: 3rem;
+      width: 100%;
+      font-size: 34px;
+    }
+    #signup-form {
+    }
+    .title {
+      font-size: 14px;
+    }
+    .line{
+      margin: 0px;
+    }
+    .line p {
+      margin-top: 35px;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+    #email, #password{
+      padding: 10px;
+      width: 250px;
+    }
+    #sinup{
+      padding: 10px;
+      width: 265px;
+      border: none;
+    }
+    .already {
+      margin: 12px 30px;
+      font-size: 14px;
+      border: none;
+    }
+    .side-image {
+      width:52%;
+      background-color: rgb(72, 72, 233);
+      color: burlywood;
+      font-weight: bold;
+    }
+    .Upara {
+      padding: 3rem 4rem;
+      color: white;
+      background-color: rgb(94, 121, 193);
+      border-radius: 30px;
+      height: auto;
+      width: 257px;
+      padding: 60px 3px;
+      margin-left: -36px;
+    }
+    #pPara {
+      font-size: 22px;
+      color: rgb(240, 239, 237);
+      padding: 10px;
+    }
+    
   }
