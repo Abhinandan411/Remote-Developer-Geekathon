@@ -1,11 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishi</title>
+    <title>blog/clone</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div id="wrapper">
+        <section class="hero">
+            <nav>
+                <a href="">
+                    <img src="./assets/asset 0.webp" alt="" class="logo">
+                </a>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Podcasts</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Perks</a></li>
+                </ul>
+                <div class="nav-btn">
+                    <a href="">Apply as a Developer</a>
+                    <a href="" class="nav-request-btn">Request Candidates <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </nav>
+            <div id="rrk">
+                <div class="container2 purple">
+                    <div class="left-div">
+                        <p class="bold1">Top Global Payroll Platforms for Remote Teams</p>
+                        <button class="read-me-button">Read More</button>
+                    </div>
+                    <div class="right-div">
+                        <img src="./assets/asset 3.jpeg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Section : hero2 starts here -->
+
+        <section class="hero2">
+            <nav>
+                <ul>
+                    <li><a href="" class="articles">All Articles</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Founders & Tech Leaders</a></li>
+                    <li><a href="">Recruiters</a></li>
+                    <li><a href="">Tech Check</a></li>
+                </ul>
+            </nav>
+
+            <div class="containerr">
+                <form action="/search" method="get" class="search-box">
+                    <input type="text" name="q" placeholder="Search Blog">
+                    <button type="submit"></button>
+                </form>
+            </div>
+
+
+            <div class="container-neww">
+                <div class="left-column-neww">
+                    <div class="row">
+                        <img id="img-neww" src="./assets/asset 5.png" alt="Image 1">
+                    </div>
+                    <div class="row">
+                        <img id="img-neww" src="./assets/asset 5.png" alt="Image 2">
+                    </div>
+                    <div class="row">
+                        <img id="img-neww" src="./assets/img-sec-2.webp" alt="Image 3">
+                    </div>
+                    <div class="row">
+                        <button class="btn">Load More</button>
+                    </div>
+                </div>
+                <div class="right-column-neww">
+                    <div class="row">
+                        <!-- insert here -->
+                        <div>
+                            <div class="card">
+                                <div class="columns">
+                                    <div class="details">
+                                        <h3><b>Popular Articles</b></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="columns">
+                                    <div class="column1">
+                                        <img src="./assets/neew.jpg" alt="Image" class="image">
+                                    </div>
+                                    <div class="column2">
+                                        <div class="details">
+                                            <h6 class="lowmar">Mon Dec 04 2023 Recruiters</h6>
+                                            <h5>What Is The Cost Of Hiring An Engineer In 2023? Budget-Friendly Pro Tips
+                                            </h5>
+                                            <h6 class="lowmar1">Read More -></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="columns">
+                                    <div class="column1">
+                                        <img src="./assets/neew.jpg" alt="Image" class="image">
+                                    </div>
+                                    <div class="column2">
+                                        <div class="details">
+                                            <h6 class="lowmar">Mon Dec 04 2023 Recruiters</h6>
+                                            <h5>What Is The Cost Of Hiring An Engineer In 2023? Budget-Friendly Pro Tips
+                                            </h5>
+                                            <h6 class="lowmar1">Read More -></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="columns">
+                                    <div class="column1">
+                                        <img src="./assets/neew.jpg" alt="Image" class="image">
+                                    </div>
+                                    <div class="column2">
+                                        <div class="details">
+                                            <h6 class="lowmar">Mon Dec 04 2023 Recruiters</h6>
+                                            <h5>What Is The Cost Of Hiring An Engineer In 2023? Budget-Friendly Pro Tips
+                                            </h5>
+                                            <h6 class="lowmar1">Read More -></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- neww -->
+                    </div>
+                    <div class="row">
+                        <div class="container25">
+                            <div class="title25">New Blog Every Week</div>
+                            <div class="content25">
+                                <p>We are always brewing something new and exciting. Subscribe now to stay updated on
+                                    the remote tech world.</p>
+                            </div>
+                            <div class="input-container25">
+                                <input type="text" class="input-text25" placeholder="Enter Email Address">
+                                <button class="btn25">Subscribe</button>
+                            </div>
+                            <div class="subscribe-btn">
+                                <nav id="sub-btn">
+                                    <a href="">Subscribe</a>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="hero3">
+            <div class="container">
+                <div class="photo-container left">
+                    <img src="./assets/download.jpeg" alt="Photo 1" class="photo1">
+                </div>
+                <div class="content">
+                    <b class="bold">Discover Trends and Insights on Our Tech Blog</b>
+                    <p>Where Technology Meets Creativity and Insights. Remotebase brings you the best blogs, showcasing
+                        a variety of topics related to remote hiring, team management and the latest tech trends. Our
+                        team of experts and tech enthusiasts delve into the latest trends and innovations, providing
+                        in-depth analysis and offering unique perspectives on the industry.
+                        <br>
+                        Join us on our journey to uncover a fascinating new remote world. Subscribe to our blog page
+                        today!
+                    </p>
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Enter Email Address...">
+                        <button class="search-button">Search</button>
+                    </div>
+                </div>
+                <div class="photo-container right">
+                    <img src="./assets/Screenshot 2024-03-16 162001.jpg" alt="Photo 2" class="photo">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer starts here -->
+        <footer>
+
+            <div class="footer-all-section">
+                <div class="footer-parts">
+                    <div class="footer-logo">
+                        <a href=""><img src="./assets/asset 68.png" alt=""></a>
+                    </div>
+                    <p>We understand the importance of efficient recruitment and ensure the quality of our candidates
+                        through extensive interviews and reference checks.</p>
+                    <div class="social-media-icons">
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <h3>Trusted by</h3>
+                    <div class="footer-certificate">
+                        <div class="licence-one">
+                            <a href=""><img src="./assets/asset 69.png" alt=""></a>
+
+                        </div>
+                        <div class="licence-one">
+                            <a href=""><img src="./assets/asset 70.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-parts">
+                    <h3>About</h3>
+                    <a href="">About Us</a>
+                    <a href="">Podcast</a>
+                    <a href="">Pricing</a>
+                    <a href="">Jobs</a>
+                    <a href="">Blog</a>
+                    <a href="">Perks</a>
+                    <a href="">Guides</a>
+                    <a href="">Community</a>
+                    <a href="">Affiliate Program</a>
+                    <a href="">Sitemap</a>
+                </div>
+                <div class="footer-parts">
+                    <h3>Awesome Talents</h3>
+                    <a href="">React JS</a>
+                    <a href="">Node JS</a>
+                    <a href="">Java</a>
+                    <a href="">Python</a>
+                    <a href="">GPT3</a>
+                    <a href="">AI</a>
+                    <a href="">Front End</a>
+                    <a href="">Back End</a>
+                    <a href="">Ruby On Rails</a>
+                    <a href="">IOS</a>
+                </div>
+                <div class="footer-parts">
+                    <h3>Industries</h3>
+                    <a href="">Airline</a>
+                    <a href="">Finance Industry</a>
+                    <a href="">Automotive</a>
+                    <a href="">Healthcare</a>
+                </div>
+                <div class="footer-parts">
+                    <h3>Contact</h3>
+                    <a href="">Support</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer-last">
+                <p>© 2024, Remotebase. All Rights Reserved</p>
+                <a href="">Terms & Privacy</a>
+            </div>
+
+        </footer>
+    </div>
 </body>
+
 </html>
