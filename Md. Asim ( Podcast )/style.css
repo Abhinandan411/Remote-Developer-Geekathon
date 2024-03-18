@@ -477,7 +477,7 @@ header nav ul li a {
   flex-direction: column;
   gap: 50px;
   overflow-y: auto;
-  height: 192px;
+  height: 400px;
 }
 
 .episodes .episode {
