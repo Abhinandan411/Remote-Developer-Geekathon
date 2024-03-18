@@ -19,12 +19,41 @@ a {
 
 /* .......Locaation.... ............. */
 
-.loclaation{
+.part22{
+  
+ 
+ 
+ 
+
+  
+
+}
+.secpart h1{
+  padding-top: 2rem;
+
+  font-size: 3rem;
+  line-height: 3.7rem;
+  
+  text-align: center;
+
+  
+  
   
 }
-.secpart{
-  
-  background:url(./assets/talent-bg.png)
+.secpart p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1rem;
+
+
+}
+.secpart img{
+  width: 94.8rem;
+ height: 50rem;
+ padding-bottom: 7rem;
+
 
 }
 
@@ -321,6 +350,7 @@ h6 {
 }
 
 .ceo {
+  background-color:#e8f4ff;
   display: flex;
   justify-content: space-between;
 
@@ -942,7 +972,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   padding-bottom: 150px;
   position: relative;
 }
@@ -1203,6 +1233,13 @@ h6 {
   font-size: 14px;
 }
 .client {
+ 
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
+  
   background-color: white;
   padding-top: 80px;
   padding-bottom: 60px;
