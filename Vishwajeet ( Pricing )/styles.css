@@ -5,33 +5,79 @@
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
-body{
-    background-color: #0b092f;
-
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
 .hero{
+    background-color: #0b092f;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.hero nav a .logo{
+    width: 200px;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+.hero nav ul{
+    display: flex;
+    padding: .2rem;
+}
+.hero nav ul li{
+    font-size: 15px;
+}
+.hero nav ul li a{
+    padding:.5rem ;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-request-btn {
+margin-left: 10px;
+ padding: 1rem 1rem;
+border: 1px solid;
+width: 30%;
+border-radius: 2rem;
+}
+.nav-request-btn:hover{
+  background-color: #fff;
+  color: black;
+  transition: .3s ease;
+}
+.header{
     color: white;
-    height: 100vh;
+    background-color: #0b092f;
+    background-size: 40%;
     background-image: url(https://remotebase.com/images/pricing/hero-bg.png);
     background-repeat: no-repeat;
-    margin-top: 120px;
     background-position: right;
-    
     padding-left: 30px;
+    padding-bottom: 50px;
 }
-.hero-words{
+
+.header-words{
     width: 40%;
     padding-top: 100px; 
+}
 
+.header-words h1{
+    font-size: 3rem;
 }
-.hero-words h1{
-    font-size: 42px;
-}
-.hero-words h1 span{
+.header-words h1 span{
     color: aqua;
 }
-.hero-words p{
-    margin-bottom: 20px;
+.header-words p{
+    margin-bottom: 14px;
 }
 .qut{
     display: flex;
@@ -554,4 +600,48 @@ body{
 .tech a:hover{
     background-color: #312a50;
     color: white;
+}
+footer{
+   
+    padding: 2rem 2rem;
+    background-color: #3617ba;
+    color: #fff;
+}
+.footer-all-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-certificate{
+    display: flex;
+    gap: 1.5rem;
+}
+.social-media-icons i{
+    padding:.5rem;
+}
+.licence-one{
+  width: 45%;
+}
+.licence-one img{
+    width: 100%;
+}
+.footer-parts{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+   
+}
+.footer-parts p{
+   font-size: 13px;
+   line-height: 1.3rem;
+}
+.footer-parts a{
+    font-size: 15px;
+}
+.footer-last{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
