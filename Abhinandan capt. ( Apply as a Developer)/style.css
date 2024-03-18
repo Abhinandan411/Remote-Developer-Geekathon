@@ -99,7 +99,6 @@
     font-size: 18px;
   }
   #sinup{
-   /* margin: 7px 23px;  */
    padding: 20px;
    border-radius: 27px;
    background-color: rgb(72, 72, 233);
@@ -127,7 +126,7 @@
     margin-top: -30px;
     margin-left: 50px;
   }
-  #pPara{
-    font-size: 40px;
+  #pPara {
+    font-size: 22px;
     color: rgb(240, 239, 237);
   }
