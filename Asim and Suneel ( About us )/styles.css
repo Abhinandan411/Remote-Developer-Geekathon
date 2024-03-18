@@ -17,6 +17,55 @@ a {
   color: #242121;
 }
 
+/* .......Locaation.... ............. */
+
+.part22{
+  
+ 
+ 
+ 
+
+  
+
+}
+.secpart h1{
+  padding-top: 2rem;
+
+  font-size: 3rem;
+  line-height: 3.7rem;
+  
+  text-align: center;
+
+  
+  
+  
+}
+.secpart p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1rem;
+
+
+}
+.secpart img{
+  width: 94.8rem;
+ height: 50rem;
+ padding-bottom: 7rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 /* Talents */
 #talents {
   background: url(assets/talent-bg.png) center center / cover no-repeat;
@@ -239,7 +288,29 @@ h6 {
   padding: 100px;
 }
 .row {
-  padding-left: 77px;
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+.row  h1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: start;
+  color: #312a50;
+  letter-spacing: normal;
+  padding-left: 7rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+
+.row p{
+  padding-top: 2rem;
+  padding-right: 8rem;
+  padding-left: 5rem;
+  color: #312a50;
+
 }
 .trust h2 {
   margin-bottom: 20px;
@@ -271,15 +342,60 @@ h6 {
 .trust img {
   margin-left: 20px;
   margin-right: 20px;
-  width: 90px;
+  width: 1rem;
 }
 .hed {
   padding-right: 50px;
 }
+
+.ceopart{
+  background-color:#e8f4ff;
+}
+
 .ceo {
+  background-color:#e8f4ff;
   display: flex;
   justify-content: space-between;
-  background-color: #e8f4ff;
+
+}
+
+.down{
+  display: flex;
+  padding: 2rem 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-evenly;
+
+}
+.dleft h1{
+  padding-top: 2rem;
+
+}
+.dright h1{
+  padding-top: 2rem;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #312a50;
+  letter-spacing: normal;
+
+}
+.dleft h1{
+  padding-top: 2rem;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #312a50;
+  letter-spacing: normal;
+
+}
+.dleft p{
+  text-align: center;
+}
+.dright p{
+  text-align: center;
 }
 
 .img-flex {
@@ -552,34 +668,34 @@ h6 {
 
 
 .silicon h1 {
-  font-family: platformmedium;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 2.4rem;
   color: #312a50;
   text-align: start;
   letter-spacing: normal;
   padding-bottom: 40px;
 }
 .silicon h3 {
-  font-family: platformmedium;
+  
   font-size: 18px;
-  line-height: 30.6px;
+  line-height: 1rem;
   color: #312a50;
   text-align: start;
   letter-spacing: normal;
   padding-bottom: 20px;
 }
 .silicon p {
-  font-family: platformmedium;
-  font-size: 18px;
-  line-height: 30.5px;
+  
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #312a50;
   text-align: start;
   letter-spacing: normal;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
+ 
 }
 .silicon img {
-  margin-left: 136px;
+  margin-left: 8rem;
 }
 
 .global {
@@ -757,13 +873,109 @@ h6 {
   grid-column-start: 3;
   grid-column-end: 4;
 }
+
+.client{
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.review-box{
+  background-color: #3617ba;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://remotebase.com/images/aboutus/layer.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  border-radius: 20px;
+}
+.review-box i{
+  color: rgb(254, 251, 251);
+  margin-top: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(232, 244, 255,0.3);
+}
+.read{
+  display: flex;
+  width: 90%;
+  
+}
+.small{
+  display: flex;
+  color: white;
+}
+.glass{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-right: 10px;
+}
+.large img{
+  width: 350px;
+  height: 100%;
+}
+.big{
+  width: 95%;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.pablo{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.logo{
+  width: 100px;
+  height: 20px;
+}
+.large{
+  position: relative;
+}
+.blur{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(59, 60, 60, 0.2);
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  
+}
+.blur h4{
+  color: white;
+  margin-bottom: 5px;
+}
+.blur p{
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.blur a{
+  color: white;
+  font-size: 12px;
+}
+
+
 .launch {
   background-color: #0b092f;
   background-image: url(https://remotebase.com/_next/image?url=%2Fimages%2Foverview%2Flanding%2Fexperience-img.webp&w=3840&q=100);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   padding-bottom: 150px;
   position: relative;
 }
@@ -1024,6 +1236,13 @@ h6 {
   font-size: 14px;
 }
 .client {
+ 
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
+  
   background-color: white;
   padding-top: 80px;
   padding-bottom: 60px;

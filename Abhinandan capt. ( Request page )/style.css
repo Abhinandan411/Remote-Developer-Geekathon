@@ -1,0 +1,96 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    padding-top: 1.5rem;
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+ }
+ .header img {
+    width: 15%;
+    height: 25px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #para {
+    font-size: 17px;
+    color: rgb(170, 157, 140);
+  }
+ .Wpara {
+    font-size: 35px;
+  }
+ .WparaB{
+     font-size:30px ;
+     color: rgb(183, 183, 124);
+ }
+ #zero{
+     border:transparent;
+     border-radius: 40px;
+     width:  175px ;
+     font-size: 18px;
+     color: rgb(255, 231, 231);
+     background-color: rgb(159, 157, 157);
+ }
+ .what{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    
+ }
+ .input{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #input{
+     width: 70%;
+     padding: 25px;
+ }
+ #input::placeholder{
+     font-size: 22px;
+ }
+ .popular{
+     margin-top: 80px;
+     margin-left:190px ;
+ }
+ #pplr{
+     font-size: 22px;
+     font-weight: bold;
+   
+ }
+ .btn{
+     border: 1px solid black;
+     padding: 18px;
+     border-radius: 44px;
+     margin: 10px;
+     font-size: 15px;
+     background-color: white;
+ }
+ .btn:hover{
+     background-color: rgb(63, 63, 207);
+     color: white;
+ }
+ .continue{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #con{
+     border: 1px solid black;
+     padding: 18px;
+     border-radius: 34px;
+     margin: 19px;
+     font-size: 22px;
+ }
+ #con:hover{
+     background-color: rgb(212, 182, 144);
+ }

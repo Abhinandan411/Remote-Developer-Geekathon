@@ -140,8 +140,13 @@
     .hero nav ul{
         display: none;
     }
+    .hamburger{
+      display: block;
+  
+   }
     .logo{
-        width: 60%;
+        width: 50%;
+        padding-right: 1rem;
     }
     .heading {
         font-size: 1.1rem;
