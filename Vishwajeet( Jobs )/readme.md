@@ -13,5 +13,6 @@
 
 
 ## 🔗 LINKS OF PROFILES
-         [![Github link](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/vishu5959) 
-         [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]()
+          🔗[GITHUB](https://github.com/vishu5959)
+
+         🔗[LINKEDIN](https://www.linkedin.com/in/vishwajeet-solanki-3a1a83176/)
