@@ -111,10 +111,12 @@ Follow these simple steps to set up the TEDTALKS on your local machine:
 # Screenshots
 
 ## Home Page :
+![Home-page](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/553a8d7e-4172-4841-afe0-c6c3d34ce0d3)
 
 
 
 ## About Page :
+![aboutus](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/52ef2a61-324f-4772-a34b-683e88c74f62)
 
 
 
@@ -123,32 +125,72 @@ Follow these simple steps to set up the TEDTALKS on your local machine:
 
 
 ## Podcast Page :
+![podcast](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/18664c2e-2ac9-44f9-8986-1ced0b85450c)
 
 
 
 ## Blog Page :
+![blog](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/882e4fbc-bc91-41eb-9d30-653674ec7b4a)
 
 
 
 ## Pricing Page :
+![pricing](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/bc4f1bc5-1180-4139-aa88-99dadedfa75b)
 
 
 
 ## Job Page :
+![job](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/eff17290-ccb9-4c0a-9de0-095cfe385f07)
 
 
 
 ## Perk Page :
+![perk](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/0ac6b588-39ad-4632-bf37-7b8bf9c8da4c)
 
 
 
 ## Apply as a developer Page :
+![apply as a developer](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/6a01db49-5111-40d2-8826-3a5d541e1ed7)
 
 
 
 ## Request button Page :
+![request-btn](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/be713c79-2331-456f-a034-ad7d766a6803)
 
 
 
+
+# Contributing
+
+Contributions are always welcome!
+
+We welcome contributions to enhance the REMOTE DEVELOPER WEBSITE. If you'd like to contribute, please follow these steps:
+
+- **Fork the Repository:** Fork the repository to your GitHub account.
+
+- **Create a New Branch:** Create a new branch for your feature or bug fix.
+
+- **Make Changes:** Implement your changes or additions.
+
+- **Commit Changes:** Commit your changes with descriptive commit messages.
+
+- **Push Changes:** Push your changes to your forked repository.
+
+- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.. If you'd like to contribute, please follow these steps:
+
+- **Fork the Repository:** Fork the repository to your GitHub account.
+
+- **Create a New Branch:** Create a new branch for your feature or bug fix.
+
+- **Make Changes:** Implement your changes or additions.
+
+- **Commit Changes:** Commit your changes with descriptive commit messages.
+
+- **Push Changes:** Push your changes to your forked repository.
+
+- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.
+
+## Credits
+**REMOTE DEVELOPER** The original REMOTE DEVELOPER WEBSITE that inspired this project. Visit **[REMOTE DEVELOPER](https://remotebase.com/)** website to getmore experiance.
 
 
