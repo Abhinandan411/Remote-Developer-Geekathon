@@ -60,7 +60,8 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 📌[HTML Code](./index.html)
 
-📌[CSS Code](./style.css)
+📌[CSS Code](./styles.css)
+📌[CSS Code](https://github.com/Abhinandan411/Remote-Developer-Geekathon/blob/main/Rishi%20Raj%20kumar%20(%20Blog%20)/styles.css)
 
 ### 🎟️[Live Link](https://abhinandan411.github.io/Remote-Developer-Geekathon/Abhinandan%20capt.%20%20(%20Home%20Page)/index.html) 
 
