@@ -529,7 +529,9 @@ img {
     color: white;
     text-align: center;
 }
-
+.photos{
+    display: none;
+}
 .bold{
     font-size: 40px;
     color: white;
