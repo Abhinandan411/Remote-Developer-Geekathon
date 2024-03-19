@@ -162,7 +162,7 @@ div .span-new{
   }
   .subscribe-btn button{
     background-color: #3617ba;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 18px 150px;
     align-items: center;
     border-color: #3617ba;
@@ -418,12 +418,14 @@ img {
   }
   
   .input-text25 {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 14px;
-    outline: none;
+        flex: 1;
+        padding: 18px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+        border-color: black;
+        color: black;
   }
   
   .btn25 {

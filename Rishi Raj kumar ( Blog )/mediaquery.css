@@ -103,10 +103,10 @@
           }
           .input-text25 {
             flex: 1;
-            padding: 8px;
+            padding: 20px;
             border: 1px solid #ccc;
-            border-radius: 3px;
-            font-size: 8px;
+            border-radius: 10px;
+            font-size: 13px;
             outline: none;
           }
           .btn25 {
@@ -266,10 +266,10 @@
       }
       .input-text25 {
         flex: 1;
-        padding: 8px;
+        padding: 20px;
         border: 1px solid #ccc;
-        border-radius: 3px;
-        font-size: 8px;
+        border-radius: 10px;
+        font-size: 13px;
         outline: none;
       }
       .btn25 {
@@ -690,10 +690,10 @@ p {
     }
       .input-text25 {
         flex: 1;
-        padding: 8px;
+        padding: 20px;
         border: 1px solid #ccc;
-        border-radius: 3px;
-        font-size: 8px;
+        border-radius: 10px;
+        font-size: 13px;
         outline: none;
       }
       .btn25 {
