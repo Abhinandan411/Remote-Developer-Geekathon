@@ -45,6 +45,69 @@ This project was provided to test the skills and creativity of members against w
 
 ```
 
+# Contributing
+
+Contributions are always welcome!
+
+We welcome contributions to enhance the REMOTE DEVELOPER WEBSITE. If you'd like to contribute, please follow these steps:
+
+- **Fork the Repository:** Fork the repository to your GitHub account.
+
+- **Create a New Branch:** Create a new branch for your feature or bug fix.
+
+- **Make Changes:** Implement your changes or additions.
+
+- **Commit Changes:** Commit your changes with descriptive commit messages.
+
+- **Push Changes:** Push your changes to your forked repository.
+
+- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.. If you'd like to contribute, please follow these steps:
+
+- **Fork the Repository:** Fork the repository to your GitHub account.
+
+- **Create a New Branch:** Create a new branch for your feature or bug fix.
+
+- **Make Changes:** Implement your changes or additions.
+
+- **Commit Changes:** Commit your changes with descriptive commit messages.
+
+- **Push Changes:** Push your changes to your forked repository.
+
+- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.
+
+## Credits
+**REMOTE DEVELOPER** The original REMOTE DEVELOPER WEBSITE that inspired this project. Visit **[REMOTE DEVELOPER](https://remotebase.com/)** website to getmore experiance.
+
+# Technology Used
+
+**HTML:** For structuring the content of web pages.
+
+**CSS:** For styling and enhancing the visual presentation of the website.
+
+**JS:** For implementing interactive features and enhancing user experience.
+
+
+## Installation
+
+Follow these simple steps to set up the TEDTALKS on your local machine:
+
+  **1. Clone The Repository:**
+```bash
+  git clone https://github.com/Abhinandan411/Remote-Developer-Geekathon.git
+```
+**2. Navigate to the Project Directory:**
+```bash
+  cd Remote Developer Geekathon
+```
+**3. Open in Web Browser:**
+```bash
+  Open the index.html file in your preferred web browser to start exploring REMOTE DEVELOPER WEBSITE .
+```
+
+
+
+[🔥Live Demo Link 🔥](https://abhinandan411.github.io/Remote-Developer-Geekathon/Abhinandan%20capt.%20%20(%20Home%20Page)/index.html)
+
 # Screenshots
 
 ## Home Page :
@@ -86,66 +149,6 @@ This project was provided to test the skills and creativity of members against w
 ## Request button Page :
 
 
-# Technology Used
-
-**HTML:** For structuring the content of web pages.
-
-**CSS:** For styling and enhancing the visual presentation of the website.
-
-**JS:** For implementing interactive features and enhancing user experience.
-
-
-## Installation
-
-Follow these simple steps to set up the TEDTALKS on your local machine:
-
-  **1. Clone The Repository:**
-```bash
-  git clone https://github.com/Abhinandan411/Remote-Developer-Geekathon.git
-```
-**2. Navigate to the Project Directory:**
-```bash
-  cd Remote Developer Geekathon
-```
-**3. Open in Web Browser:**
-```bash
-  Open the index.html file in your preferred web browser to start exploring REMOTE DEVELOPER WEBSITE .
-```
 
 
 
-# Contributing
-
-Contributions are always welcome!
-
-We welcome contributions to enhance the REMOTE DEVELOPER WEBSITE. If you'd like to contribute, please follow these steps:
-
-- **Fork the Repository:** Fork the repository to your GitHub account.
-
-- **Create a New Branch:** Create a new branch for your feature or bug fix.
-
-- **Make Changes:** Implement your changes or additions.
-
-- **Commit Changes:** Commit your changes with descriptive commit messages.
-
-- **Push Changes:** Push your changes to your forked repository.
-
-- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.. If you'd like to contribute, please follow these steps:
-
-- **Fork the Repository:** Fork the repository to your GitHub account.
-
-- **Create a New Branch:** Create a new branch for your feature or bug fix.
-
-- **Make Changes:** Implement your changes or additions.
-
-- **Commit Changes:** Commit your changes with descriptive commit messages.
-
-- **Push Changes:** Push your changes to your forked repository.
-
-- **Open a Pull Request:** Submit a pull request, detailing the changes you've made.
-
-## Credits
-**REMOTE DEVELOPER** The original REMOTE DEVELOPER WEBSITE that inspired this project. Visit **[REMOTE DEVELOPER](https://remotebase.com/)** website to getmore experiance.
-
-
-[Live Demo Link](https://abhinandan411.github.io/Remote-Developer-Geekathon/Abhinandan%20capt.%20%20(%20Home%20Page)/index.html)
