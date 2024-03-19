@@ -1,4 +1,4 @@
-# 🎯REMOTE DEVELOPER WEBSITE (Home Page) 🖥️
+# 🎯REMOTE DEVELOPER WEBSITE (About us) 🖥️
 
 ## 🚀REMOTE DEVELOPER Website
 
@@ -19,7 +19,7 @@ Welcome REMOTE DEVELOPER website Project! This project aims to replicate and enh
   9. Remote-Solution Section
   10. Footer Section
 ```
-In  all these section, we aim to mirror the original REMOTE DEVELOPER website's "Home Page"
+In  all these section, we aim to mirror the original REMOTE DEVELOPER website's "About us"
 
 *Key features include:*
 - **Responsive Design:** Ensure the values section is visually appealing and functional on various devices.
@@ -39,7 +39,7 @@ I would like to express my gratitude to everyone who contributed to the developm
 
 ### Project Contirbutors
 
-Abhinandan kumar.
+Suneel kumar , Asim
 
 ### Project Lead
 
@@ -72,4 +72,7 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 ### 💥Project Output :  
 
-![screencapture-abhinandan411-github-io-Remote-Developer-Geekathon-Abhinandan-capt-Home-Page-index-html-2024-03-18-14_41_02](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/116a1954-ece5-48e6-b8b1-16e224c6ca55)
+
+![82a7696c-cab9-451e-9260-30caf1fb3f58](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/45797776/ef32c150-5d08-4668-a241-9056bd403c22)
+
+!
