@@ -52,7 +52,13 @@ I would like to express my gratitude to everyone who contributed to the developm
 
 ### 🟢Project Contirbutors
 
-Abhinandan kumar.
+```bash
+  1. ABHINANDAN (CAPTAIN)
+  2. SUNEEL KUMAR
+  3. MD.ASIM
+  4. VISHWAJEET SINGH
+  5. RISHI RAJ KUMAR
+```
 
 ### 🟢Project Lead
 
