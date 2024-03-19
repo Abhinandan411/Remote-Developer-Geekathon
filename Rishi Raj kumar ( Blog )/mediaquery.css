@@ -668,7 +668,7 @@ p {
         padding-top: 60px;
     }
      .container25 {
-        margin-left: 60px;
+        margin-left: 85px;
         width: 300px;
         padding: 20px;
         border: 1px solid #ccc;
@@ -676,6 +676,12 @@ p {
         background-color: #fff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
+      .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
       .card {
         margin-left: 100px;
         width: 300px;
@@ -713,7 +719,7 @@ p {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 120px;
+    margin-left: 142px;
     font-size: 12px;    
 }
 .container-neww {
@@ -731,3 +737,5 @@ p {
     background-color: rgb(11, 9, 47);
 }
 }
+
+

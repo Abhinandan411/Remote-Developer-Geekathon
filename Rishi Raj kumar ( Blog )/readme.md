@@ -67,4 +67,11 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 ### 💥Project Output :  
 
-![screencapture-abhinandan411-github-io-Remote-Developer-Geekathon-Abhinandan-capt-Home-Page-index-html-2024-03-18-14_41_02](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/116a1954-ece5-48e6-b8b1-16e224c6ca55)
+![blog hero1](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/155779733/d97f349c-9544-4de8-90ca-1c8271f121b4)
+![blog hero2](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/155779733/69d8f280-985a-4bd2-b7e2-8c428c71e34f)
+![blog hero2.2](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/155779733/ca0a24d1-1414-4731-969c-ad188158231c)
+![blog hero3](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/155779733/8f28c77f-42d8-4d7f-b72a-5806ef3f8068)
+![footerblog](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/155779733/0501a7d3-abd6-4615-9373-920fea3d0ab6)
+
+
+
