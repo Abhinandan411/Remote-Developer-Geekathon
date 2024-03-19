@@ -18,11 +18,11 @@ This project was provided to test the skills and creativity of members against w
 
 ## 🚀Features
 
-**Expert Developers**: Showcase a team of skilled and experienced developers proficient in website cloning techniques, ensuring high-quality replication of desired features.
+**📌Expert Developers**: Showcase a team of skilled and experienced developers proficient in website cloning techniques, ensuring high-quality replication of desired features.
 
-**Comprehensive Website Cloning Services**: Highlight the platform's dedication to providing thorough website cloning services remotely, emphasizing the replication of functionality and design features.
+**📌Comprehensive Website Cloning Services**: Highlight the platform's dedication to providing thorough website cloning services remotely, emphasizing the replication of functionality and design features.
 
-**Remote Development Collaboration**: Offer a seamless remote collaboration environment where clients can communicate with developers, provide feedback, and track progress on their cloned websites.
+**📌Remote Development Collaboration**: Offer a seamless remote collaboration environment where clients can communicate with developers, provide feedback, and track progress on their cloned websites.
 
 **Responsive Design**: Enjoy seamless browsing and viewing experiences across various devices, including desktops, tablets, and smartphones.
 
