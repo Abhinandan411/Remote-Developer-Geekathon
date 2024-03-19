@@ -71,3 +71,5 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 
 ### 💥Project Output :  
+
+![screencapture-abhinandan411-github-io-Remote-Developer-Geekathon-Abhinandan-capt-Home-Page-index-html-2024-03-18-14_41_02](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/116a1954-ece5-48e6-b8b1-16e224c6ca55)
