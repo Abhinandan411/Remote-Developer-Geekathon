@@ -70,8 +70,10 @@ We appreciate the feedback and support received from our peers, mentors, and the
 📌[CSS Code](./style.css)
 
 ### 🎟️[Live Link](https://abhinandan411.github.io/Remote-Developer-Geekathon/Abhinandan%20capt.%20%20(%20Home%20Page)/index.html) 
-![PHOTO-2024-03-19-15-01-10](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/159278797/9f841430-10f1-4001-8c95-2744e4e9c68d)
+
 
 
 ### 💥Project Output :  
 
+
+![PHOTO-2024-03-19-15-01-10](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/159278797/da64757d-89c2-41d9-ae2f-5c2fdcbbbca9)
