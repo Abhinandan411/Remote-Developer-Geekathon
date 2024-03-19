@@ -1,4 +1,4 @@
-# 🎯REMOTE DEVELOPER WEBSITE (Home Page) 🖥️
+# 🎯REMOTE DEVELOPER WEBSITE (Podcast) 🖥️
 
 ## 🚀REMOTE DEVELOPER Website
 
@@ -35,7 +35,7 @@ I would like to express my gratitude to everyone who contributed to the developm
 
 ### Project Contirbutors
 
-Abhinandan kumar.
+Mohd Asim.
 
 ### Project Lead
 
