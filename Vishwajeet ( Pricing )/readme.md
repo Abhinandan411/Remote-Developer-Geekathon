@@ -1,4 +1,4 @@
-# REMOTE DEVELOPER WEBSITE (PRICING PAGE) 💵
+ # REMOTE DEVELOPER WEBSITE (PRICING PAGE) 💵
 ## DESCRIPTION 
         ▶ the project gibven by geekster to develop exact replica of remotebase website
 
