@@ -1,4 +1,4 @@
-# 🎯REMOTE DEVELOPER WEBSITE (Home Page) 🖥️
+# 🎯REMOTE DEVELOPER WEBSITE (Podcast) 🖥️
 
 ## 🚀REMOTE DEVELOPER Website
 
@@ -35,7 +35,7 @@ I would like to express my gratitude to everyone who contributed to the developm
 
 ### Project Contirbutors
 
-Abhinandan kumar.
+Mohd Asim.
 
 ### Project Lead
 
@@ -44,3 +44,8 @@ Abhinandan kumar.
 ## Special Thanks
 
 We extend our gratitude to the original 🚀REMOTE DEVELOPER website development team for creating an inspiring website that served as the foundation for this project.
+
+#Images
+![Screenshot (237)](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/140525001/6616f56c-d3e5-432e-80da-6a65d0fcf3b5)
+![Screenshot (238)](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/140525001/f2443b2b-751f-4601-be0e-a43a987bec27)
+![Screenshot (239)](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/140525001/438d6eaf-89dd-499c-b281-1b423135c30b)

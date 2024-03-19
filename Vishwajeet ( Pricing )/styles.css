@@ -134,13 +134,14 @@ border-radius: 2rem;
     margin-bottom: 20px;
 }
 .numbers{
+    width: 50%;
     display: flex;
     margin-bottom: 20px;
 }
 .numbers h2{
-    font-size: 50px;
+    font-size: 3rem;
     color: rgb(1, 1, 76);
-    margin-right: 35px;
+    margin-right: 2rem;
 }
 .info a{
     color: white;
@@ -173,8 +174,8 @@ border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    gap: 2%;
     margin-top: 20px;
 }
 .symbols{
@@ -206,19 +207,20 @@ border-radius: 2rem;
 .grid-wrapp{
     width: 95%;
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-bottom: 60px;
     background-color: #0b092f;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
+    border-radius: 60px;
 }
 .quality{
     color: white;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 250px;
-    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
 }
 .grid-1,.grid-2,.grid-3,.grid-4{
     padding-top: 50px;
@@ -262,6 +264,8 @@ border-radius: 2rem;
     line-height: 25px;
 }
 .im{
+    height: 200%;
+    width: 100%;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 3;
@@ -320,12 +324,14 @@ border-radius: 2rem;
 }
 .im-flex{
     display: flex;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 .box{
-    width: 30%;
-    margin-right: 70px;
+    padding: 10px;
+    width: 33%;
+    margin-right: 1%;
 }
 .num{
     display: inline-block;
@@ -338,6 +344,7 @@ border-radius: 2rem;
 }
 .im-flex img{
     margin-bottom: 15px;
+    width: 100%;
 }
 .im-flex h2{
     font-family: 'Roboto',sans-serif;
@@ -367,21 +374,25 @@ border-radius: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .white-b{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     display: grid;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-columns: 320px 320px 320px;
-    gap: 15px;
-    margin-bottom: 30px;
+    grid-template-rows: 28% 28% 28%;
+    grid-template-columns: 32% 32% 32%;
+    row-gap: 5%;
+    column-gap: 1%;
 }
 .icon-b{
     display: flex;
     background-color: #ffffff;
     align-items: center;
-    padding-left: 40px;
     border-radius: 10px;
+    padding: 30px;
 }
 .icon-b i{
     margin-right: 5px;
@@ -395,13 +406,16 @@ border-radius: 2rem;
     font-size: 14px;
 }
 .three-pic{
-    width: 95%;
-    padding-left: 110px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
     margin-right: auto;
 }
 .three-pic img{
     background-color: rgb(232, 244, 255);
-    margin-right: 20px;
+    margin-right: 10px;
+    width: 30%;
 }
 .network{
     background-color: #180d5a;
@@ -488,6 +502,7 @@ border-radius: 2rem;
     
 }
 .small{
+    width: 50%;
     display: flex;
     color: white;
 }
@@ -498,8 +513,11 @@ border-radius: 2rem;
     border: 5px solid white;
     margin-right: 10px;
 }
+.large{
+    width: 50%;
+}
 .large img{
-    width: 350px;
+    width: 100%;
     height: 100%;
 }
 .big{
@@ -522,6 +540,7 @@ border-radius: 2rem;
 }
 .blur{
     width: 100%;
+    height: 40%;
     position: absolute;
     bottom: 0px;
     background-color: rgba(59, 60, 60, 0.2);
@@ -551,31 +570,36 @@ border-radius: 2rem;
 }
 .top{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-left: 30px;
     margin-bottom: 40px;
+    padding-right: 30px;
 }
 .top h1{
     width: 40%;
     font-size: 38px;
-    margin-right: 150px;
 }
 .top p{
     width: 40%;
 }
 .bottom{
-    margin-left: 30px;
+
 }
 .bottom-t{
     display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .bottom-t div{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    padding: 20px;
-    margin-right: 30px;
-    width: 15%;
+    padding: 2%;
+    margin-right: 1%;
+    width: 20%;
     border-radius: 20px;
     background-color: rgba(243, 244, 245, 0.1);
 }
