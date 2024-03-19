@@ -416,8 +416,8 @@ header nav ul li a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 60px 20px 50px 20px;
-  margin-top: 82px;
+  padding: 83px 20px 50px 20px;
+  margin-top: 120px;
 }
 
 #podcast-episodes .right h3 {
@@ -476,8 +476,6 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  overflow-y: auto;
-  height: 400px;
 }
 
 .episodes .episode {
@@ -767,7 +765,7 @@ footer a {
 
 @media only screen and (max-width: 1200px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: fit-content;
   }
 }
@@ -828,22 +826,29 @@ footer a {
 
   #hero .content p {
     font-size: 24px;
-}
-#subscriber{
-  flex-direction: column;
+  }
+  #subscriber {
+    flex-direction: column;
+  }
+
+  .subscribe-form {
+   
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 19px;
 }
 
-#subscriber input{
-  width: 100%;
-  font-size: 2rem;
-  padding: 25px 22px;
-}
+  #subscriber input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 22px 22px;
+  }
 
-#subscriber button{
-  width: 100%;
-  font-size: 2rem;
-  padding: 25px 22px;
-}
+  #subscriber button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 22px 22px;
+  }
   #hero .img-container {
     margin-left: 28px;
     width: 93%;
@@ -901,12 +906,12 @@ footer a {
   .heading-btn h2 {
     font-size: 2.9rem;
     line-height: 3rem;
-}
+  }
 
-  ..btn a {
+  .btn a {
     padding: 27px 54px;
     font-size: 2rem;
-}
+  }
 
   .btn a span svg {
     width: 27px;
@@ -942,7 +947,7 @@ footer a {
     text-align: center;
     font-size: 51px;
     margin-bottom: 2rem;
-}
+  }
 
   #podcast-episodes .right p {
     font-weight: 400;
@@ -1019,14 +1024,10 @@ footer a {
     padding: 1.5rem;
   }
 
-
   #newEpisode .weeks-container {
     justify-content: space-between;
     flex-direction: column;
     gap: 15px;
     position: relative;
-}
-
-
-
+  }
 }
