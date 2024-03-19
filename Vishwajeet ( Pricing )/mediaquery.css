@@ -1,0 +1,22 @@
+@media screen and (max-width: 1220px) {
+    nav .nav-btn{
+        display: none;
+    }   
+.header-words{
+    padding-top: 50px;
+}
+.footer-parts p{
+    font-size: 12px;
+}
+.footer-parts a{
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 950px){
+    .footer-parts{
+        width: 80%;
+    }
+    .footer-certificate{
+       width: 50%;
+    }
+}
