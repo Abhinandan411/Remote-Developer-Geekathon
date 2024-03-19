@@ -84,6 +84,7 @@
     border-radius: 27px;
     margin-top: 17px;
     margin-bottom: 2rem;
+    border: 1px solid black;
   }
   #password{
     padding: 20px;
@@ -91,6 +92,7 @@
     border-radius: 27px;
     margin-top: 17px;
     margin-bottom: 1rem;
+    border: 1px solid black;
   }
   .already{
     margin-top: 20px;
@@ -105,6 +107,7 @@
    color: white;
    font-size: 17px;
    width: 520px;
+   border: transparent;
   }
   .side-image{ 
     width: 50%;
@@ -136,6 +139,9 @@
 
 
   @media screen and (max-width:991px) {
+    #signup-form{
+      font-size: 35px;
+    }
     .container {
       width: 100%;
       display: flex;
@@ -143,7 +149,54 @@
       align-items: center;
       flex-direction: column;
     }
+    .side-image{
+      width: 100%;
+    }
+    .Upara{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
     
+    
+  }
+  @media screen and (max-width:750px) {
+    #signup-form{
+      font-size: 30px;
+
+    }
+    .title{
+      font-size: 15px;
+    }
+    .google-logo{
+      width: 302px;
+      margin-bottom: 2rem;
+    }
+    #g-logo{
+      margin-left: 20px;
+    }
+    #continue{
+      font-size: 18px;
+      text-align: center;
+     margin-left: 0;
+    }
+    .line p{
+      display: none;
+    }
+    #email{
+      
+      width: 280px;
+    }
+    #password{
+      width: 285px;
+    }
+    #sinup{
+      width: 330px;
+    }
+    .already{
+      font-size: 12px;
+      
+    }
   }
   @media screen and (max-width:467px) {
     .container {

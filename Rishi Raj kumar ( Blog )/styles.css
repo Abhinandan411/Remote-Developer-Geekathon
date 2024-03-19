@@ -12,6 +12,10 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.hamburger{
+   display: none;
+}
+
 .hero{
     background-color: #3617ba;
     color: #fff;
@@ -167,6 +171,7 @@ div .span-new{
     padding: 20px 150px;
     font-weight: bolder;
     color: #fff;
+    border-color: #3617ba;
   }
   .details h3 b{
     padding-top: 20px;
@@ -288,7 +293,7 @@ div .span-new{
     margin-left: 30px;
     margin-right: 80px;
     margin-bottom: 60px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     padding-left: 50px;
     padding-right: 60px;
     padding-top: 40px;
@@ -298,6 +303,7 @@ div .span-new{
     text-align: center;
     padding-right: 80px;
     margin-right: 80px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -339,7 +345,8 @@ img {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 350px;    
+    margin-left: 350px; 
+    font-size: 14px;   
 }
 
 .right-column-neww {
@@ -522,7 +529,9 @@ img {
     color: white;
     text-align: center;
 }
-
+.photos{
+    display: none;
+}
 .bold{
     font-size: 40px;
     color: white;
@@ -531,6 +540,7 @@ img {
 .bold1{
     font-size: 50px;
     color: white;
+    font-weight: bolder;
 }
 
 

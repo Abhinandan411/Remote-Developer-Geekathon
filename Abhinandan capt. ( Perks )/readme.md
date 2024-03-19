@@ -1,4 +1,4 @@
-# 🎯REMOTE DEVELOPER WEBSITE (Home Page) 🖥️
+# 🎯REMOTE DEVELOPER WEBSITE ( PERK Page) 🖥️
 
 ## 🚀REMOTE DEVELOPER Website
 
@@ -6,18 +6,14 @@
 Welcome REMOTE DEVELOPER website Project! This project aims to replicate and enhance the "Home Page"section of the REMOTE DEVELOPER website. By Recreatin this Section We Intend to Flourish It's is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact.
 
 
-### Home Page consistes :
+### PERK Page consistes :
 ```bash
   1. Nav Bar
   2. Hero Section
-  3. Remote Section
-  4. Tech-Stack Section
-  5. Global Section
-  6. Developer Section
-  7. Reason Section
-  8. Testimonioal Section
-  9. Remote-Solution Section
-  10. Footer Section
+  3. Partner Section
+  4. Thinking Section
+  5. Launch Section
+  6. Footer Section
 ```
 In  all these section, we aim to mirror the original REMOTE DEVELOPER website's "Home Page"
 
@@ -32,6 +28,8 @@ In  all these section, we aim to mirror the original REMOTE DEVELOPER website's 
 - HTML
 
 - CSS
+
+- JavaScript
 
 ## Acknowledgement
 
@@ -72,4 +70,4 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 ### 💥Project Output :  
 
-![screencapture-abhinandan411-github-io-Remote-Developer-Geekathon-Abhinandan-capt-Home-Page-index-html-2024-03-18-14_41_02](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/116a1954-ece5-48e6-b8b1-16e224c6ca55)
+![perk](https://github.com/Abhinandan411/Remote-Developer-Geekathon/assets/131553633/d07d4c30-6957-4ea2-8abb-4ae82862f14a)

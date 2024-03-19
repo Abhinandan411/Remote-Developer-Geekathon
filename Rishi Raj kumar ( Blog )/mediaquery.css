@@ -144,6 +144,9 @@
       grid-template-columns:1fr 1fr;
       gap: 30px;
     }
+    .hamburger{
+        display: block;
+    }
     .hero nav ul li{
         display: none;
       }
@@ -313,28 +316,22 @@
     .left-div, .right-div {
         flex: none;
     }
-    /* 
-.container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
-    margin-bottom: -180px;
-} */
+    .hamburger{
+        display: block;
+    }
     .container2 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         height: 100vh;
-        margin-bottom: -220px;
+        margin-bottom: -200px;
     }
     .left-div {
         text-align: left;
         margin-left: 10px;
         margin-right: 45px;
-        margin-bottom: 0px;
+        margin-bottom: 38px;
         /* padding-bottom: 60px; */
         padding-left: 28px;
         padding-right: 38px;
@@ -494,5 +491,243 @@
     height: 90%;
     background-color: rgb(11, 9, 47);
 }
+}
 
+
+/* :::::::::::::::::::::::::screen size at 450 px:::::::::::::::::::: */
+@media only screen and (max-width: 550px){
+    .media{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+    .hero{
+        padding-right: 12px;
+    }
+    .left-div, .right-div {
+        flex: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        margin-bottom: -230px;
+    }
+    .left-div {
+        text-align: left;
+        margin-left: 6px;
+        margin-right: 32px;
+        margin-bottom: 30px;
+        /* padding-bottom: 60px; */
+        padding-left: 20px;
+        padding-right: 25px;
+        padding-top: 10px;
+    }
+    div .span-new{
+        padding: 5px 10px;
+        background-color: rgba(103, 79, 210, 0.685);
+        border-radius: 14px;
+    }
+    .bold1{
+        font-size: 28px;
+        color: white;
+        font-weight:bolder;
+    }
+    .right-div {
+        text-align: center;
+        padding-right: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+        height: auto;
+    }
+    .read-me-button {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 16px; /* Adjust border-radius as needed */
+        padding: 8px 30px; /* Adjust padding as needed */
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .hero2 {
+        background-color: rgb(232, 244, 255);
+        color: rgb(0, 0, 0);
+        padding: 1rem;
+    }
+    .hero2 nav ul li a{
+        color: black;
+    }
+    .hero2 nav {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;}
+    .hero2 ul {
+            display: flex;
+            padding: 0.1rem;
+    }   
+    .hero2 nav ul li {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    .hero2 nav ul li a {
+        color: grey;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0.2rem;
+    }
+    .hero2 nav .articles{
+        font-weight: bold;
+        color: #000;
+    }
+    .search-box input[type="text"] {
+        padding-left: 30px;
+        width: 310px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3.5px;
+        border-width: 0.3px;
+  }
+  .right-column-neww {
+    flex: 1;
+    padding: 50px 0;
+}
+.bold{
+    font-size: 30px;
+    color: white;
+}
+p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+.photo1 {
+    max-width: 47%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    display: flex;
+}
+.photos{
+    display: inline;
+    max-width: 50%;
+}
+.photo-container {
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+    margin: 0 60px;
+    display: flex;
+}
+.photo {
+    max-width: 60%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    display: none;
+}
+
+    .photo-container {
+      width: 100%; /* Set width to 100% to occupy full width */
+      margin-bottom: 20px; /* Add margin-bottom for spacing between stacked elements */
+    }
+  
+    .content {
+      order: 3; /* Set the order of the content div to display it below the photo containers */
+    }
+    .footer-all-section{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .tech-logo a{
+       padding: .9rem 1rem;
+     }
+     .footer-parts{
+         width: 80%;
+     }
+     .footer-certificate{
+        width: 50%;
+     }
+     #img-neww {
+        margin-left: 0;
+        padding-left: 20px;
+        margin-right: 10px;
+        padding-top: 60px;
+    }
+     .container25 {
+        margin-left: 60px;
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .card {
+        margin-left: 100px;
+        width: 300px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+      .input-text25 {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 8px;
+        outline: none;
+      }
+      .btn25 {
+        display: inline-flex;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: #3617ba;
+        color: #fff;
+        font-size: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .subscribe-btn #sub-btn{
+        padding: 20px 95px;
+        font-weight: bolder;
+        color: #fff;
+}
+.btn {
+    padding: 10px 60px;
+    background-color: #3617ba;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 120px;
+    font-size: 12px;    
+}
+.container-neww {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background-color: rgb(11, 9, 47);
+}
 }

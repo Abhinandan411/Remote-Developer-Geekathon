@@ -1,25 +1,20 @@
-# 🎯REMOTE DEVELOPER WEBSITE (Home Page) 🖥️
+# 🎯REMOTE DEVELOPER WEBSITE (Blog Page) 🖥️
 
 ## 🚀REMOTE DEVELOPER Website
 
 ## 📌Overview
-Welcome REMOTE DEVELOPER website Project! This project aims to replicate and enhance the "Home Page"section of the REMOTE DEVELOPER website. By Recreatin this Section We Intend to Flourish It's is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact.
+Welcome REMOTE DEVELOPER website Project! This project aims to replicate and enhance the "Blog Page"section of the REMOTE DEVELOPER website. By Recreating this Section We Intend to Flourish it. This is a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact.
 
 
-### Home Page consistes :
+### Blog Page consistes :
 ```bash
   1. Nav Bar
   2. Hero Section
-  3. Remote Section
-  4. Tech-Stack Section
-  5. Global Section
-  6. Developer Section
-  7. Reason Section
-  8. Testimonioal Section
-  9. Remote-Solution Section
-  10. Footer Section
+  3. Hero2 Section
+  4. Hero3 Section
+  5. Footer Section
 ```
-In  all these section, we aim to mirror the original REMOTE DEVELOPER website's "Home Page"
+In  all these section, we aim to mirror the original REMOTE DEVELOPER website's "Blog Page"
 
 *Key features include:*
 - **Responsive Design:** Ensure the values section is visually appealing and functional on various devices.
@@ -39,11 +34,11 @@ I would like to express my gratitude to everyone who contributed to the developm
 
 ### Project Contirbutors
 
-Abhinandan kumar.
+Rishi Raj kumar.
 
-### Project Lead
+### Project Member
 
-- **Abhinandan :** Project Lead, responsible for overseeing the development and ensuring alignment with the original REMOTE DEVELOPER website's vision.
+- **Rishi Raj:** Made blog section and is responsible for overseeing the development and ensuring alignment with the original REMOTE DEVELOPER website's vision.
 
 ## Special Thanks
 
