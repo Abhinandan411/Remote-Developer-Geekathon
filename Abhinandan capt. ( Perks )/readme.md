@@ -63,7 +63,7 @@ We appreciate the feedback and support received from our peers, mentors, and the
 
 📌[HTML Code](./index.html)
 
-📌[HTML Code](./index.html)
+📌[CSS Code](./style.css)
 
 ### 🎟️[Live Link](https://abhinandan411.github.io/Remote-Developer-Geekathon/Abhinandan%20capt.%20%20(%20Home%20Page)/index.html) 
 
