@@ -97,6 +97,13 @@ margin: 0 auto;
 background-color:  #3617ba;
 border:1px solid #3617ba;
 }
+.request-btn a:hover{
+    background-color: #fff;
+    color: #3617ba;
+    transition: .3s ease;
+    border: transparent;
+
+}
 
 
 /* ::::::::::::::::::::::::::::::::::  remote-talent  ::::::::::::::::::::::::::::::::::::::::  */
@@ -130,14 +137,6 @@ border:1px solid #3617ba;
      color: #3617ba;
 }
 
-/* @keyframes talenet-header-logos{
-  from{
-    transform: translate(0%);
-  }
-  to{
-    transform: translate(-50%);
-  }  
-} */
 
 
 .remote-talent-main {
@@ -170,6 +169,9 @@ border:1px solid #3617ba;
     padding: .5rem;
     margin-left: auto;
     margin-right: auto;
+    /* overflow: hidden; */
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .member-no{
     width: 35px;
@@ -188,8 +190,14 @@ border:1px solid #3617ba;
 .member-image img{
     width: 100%;
     margin-bottom: 2rem;
+   
 
 }
+.member-image img:hover{
+    transform: scale(1.1);
+    transition: .8s ease;
+}
+
 .member-work h2 {
   margin-bottom: 1rem;
   color: #312a50;
@@ -197,6 +205,10 @@ border:1px solid #3617ba;
 .member-work p{
     line-height: 1.25rem;
     color: #312a50;
+}
+.member-no:hover{
+    background-color: #cecdcf;
+    cursor: pointer;
 }
 
 /* ::::::::::::::::::::::::::::::::::  tech-stack  ::::::::::::::::::::::::::::::::::::::::  */
@@ -319,6 +331,12 @@ border:1px solid #3617ba;
     background-color:  #3617ba;;
     border-radius: 15px;
 }
+.global-btn a:hover{
+    background-color: #fff;
+    color: #3617ba;
+    transition: .3s ease;
+    border: 1.2px solid #3617ba;
+}
 
 .right-global{
     width: 55%;
@@ -361,14 +379,19 @@ border:1px solid #3617ba;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    position: relative
-
+    position: relative;
+    overflow: hidden;
     
 }
 .developer img{
     width: 100%;
     height: 300px;
-    overflow: hidden;
+   
+}
+.developer img:hover{
+    transform: scale(1.1);
+    transition: .6s ease;
+    cursor: pointer;
 }
 
 .developer-profile{ 
@@ -398,6 +421,13 @@ border:1px solid #3617ba;
     background-color:  #3617ba;
     border-radius: 15px;
 }
+.developer-btn a:hover{
+    background-color: #fff;
+    color: #3617ba;
+    transition: .3s ease;
+    border: 1.2px solid #3617ba;
+}
+
 
 /* ::::::::::::::::::::::::::::::::::  reason-section  ::::::::::::::::::::::::::::::::::::::::  */
 .reason-section{
@@ -515,6 +545,13 @@ border:1px solid #3617ba;
     width: 100%;
     height: 300px;
 }
+.testimonial-developer-image{
+    overflow: hidden;
+}
+.testimonial-developer-image img:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
 .testimonial-developer-profile{
    position: absolute;
    padding: .5rem 1.5rem;
@@ -618,6 +655,13 @@ border:1px solid #3617ba;
    background-color:  #3617ba;
    border:1px solid #3617ba;
 }
+.launch-project-btn a:hover{
+    background-color: #fff;
+    color: #3617ba;
+    transition: .3s ease;
+    border: 1.2px solid #3617ba;
+}
+
 .launch-project-section-image{
     position: absolute;
     top: 0;
