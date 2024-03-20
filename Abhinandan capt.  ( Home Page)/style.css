@@ -71,9 +71,13 @@ border-radius: 2rem;
     font-size: 2rem;
     text-align: center;
     line-height: 4rem;
+
 }
 .heading span{
     color: aqua;
+}
+.heading h1{
+    font-weight: bold;
 }
 .hero-header p {
     text-align: center;
@@ -132,6 +136,7 @@ border:1px solid #3617ba;
     margin-bottom: 2rem;
     font-size: 2rem;
     color: #312a50;
+    font-weight: bold;
 }
 .remote-talent-header h2 span{
      color: #3617ba;
@@ -146,13 +151,14 @@ border:1px solid #3617ba;
 }
 .remote-talent-main h1{
     width: 50%;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #312a50;
     margin-left: auto;
     margin-right: auto;
     line-height: 4rem;
+    font-weight: bold;
 }
 .remote-talent-main p{
     width: 50%;
@@ -201,6 +207,8 @@ border:1px solid #3617ba;
 .member-work h2 {
   margin-bottom: 1rem;
   color: #312a50;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .member-work p{
     line-height: 1.25rem;
@@ -240,6 +248,7 @@ border:1px solid #3617ba;
 .tech-stack-left h2{
     width: 90%;
     font-size: 2.5rem;
+    font-weight: 600;
 }
 .tech-stack-logos{
     margin-top: 2rem;
@@ -357,6 +366,7 @@ border:1px solid #3617ba;
 }
 .developer-header h1{
     font-size: 3rem;
+    font-weight: 600;
     color: #312a50;
    
 }
@@ -399,7 +409,7 @@ border:1px solid #3617ba;
    position: absolute;
    padding: .5rem 2rem;
    left: 0;
-   bottom: 0.2rem;
+   bottom: 0rem;
    right: 0;
    background: rgba(153, 150, 150, 0.5);
    height: 128px;
@@ -408,6 +418,7 @@ border:1px solid #3617ba;
 .developer-profile p{
     font-size: 12px;
    margin-top: 5px;
+   margin-bottom: 0rem;
 }
 .developer-btn{
     text-align: center;
@@ -443,6 +454,7 @@ border:1px solid #3617ba;
     color: #312a50;
     font-size: 2.5rem;
     line-height: 3rem;
+    font-weight: bold;
 }
 .reason-header p{
     font-size: 18px;
@@ -477,6 +489,11 @@ border:1px solid #3617ba;
     border-radius: 5px;
     padding:1.5rem 1.5rem;
     background-color: rgb(27, 27, 70);
+
+}
+.main-left-container h1{
+    font-size:1.5rem;
+    font-weight: 600;
 
 }
 .main-left-container p{
@@ -529,6 +546,7 @@ border:1px solid #3617ba;
 }
 .testimonial-main-discription h1{
     font-size: 1.5rem;
+   
 }
 .testimonial-main-discription p{
     margin-top: 2rem;
@@ -596,6 +614,7 @@ border:1px solid #3617ba;
     margin-bottom: 2rem;
     font-size: 2.5rem;
     line-height: 2rem;
+    font-weight: bold;
 }
 .remote-solution-section-header p{
     line-height: 1.5rem;
@@ -632,7 +651,7 @@ border:1px solid #3617ba;
     
 }
 .launch-project-section-header h1{
-    
+    font-weight: bold;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
