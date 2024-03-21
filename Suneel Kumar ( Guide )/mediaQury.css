@@ -38,68 +38,6 @@
           width: 70%;
           font-size: 15px;
       }
-      .reason-header h1{
-          font-size: 2rem;
-      }
-      .reason-header p{
-         width: 70%;
-         margin-left: auto;
-         margin-right: auto;
-         font-size: 15px;
-         line-height: 1.5rem;
-      }
-      .reason-main-right{
-        width: 80%;
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-      .main-right-image{
-          width: 100%;
-      }
-      .main-right-image img{
-          width: 100%;
-      }
-      .main-left-container{
-          width: 90%;
-      }
-      .main-left-container h1{
-          font-size: 1.3rem;
-      }
-      .main-left-container p{
-        font-size: 13px;
-      }
-      .remote-solution-section-header h1{
-          font-size:1.7rem;
-          line-height: 1rem;
-      }
-      .remote-solution-section-header p{
-          font-size: 15px;
-      }
-      .work h2{
-          font-size: 1.5rem;
-      }
-      .left-global p{
-          font-size: 13px;
-      }
-      .launch-project-section-header h1{
-          font-size: 1.8rem;
-  
-      }
-      .launch-project-section-header p{
-          font-size: 14px;
-  
-      }
-      .launch-project-section-image img {
-          width: 100%;
-      }
-      .launch-project-btn a{
-          padding: 1rem 1rem;
-          font-size: 15px;
-          font-weight: 500;
-      }
-      .testimonial-main-discription h1 {
-          font-size: 1.2rem;
-        }
       .footer-parts p{
           font-size: 12px;
       }
@@ -191,60 +129,8 @@
         .request-btn a{
           width: 70%;
       }
-        .remote-talent-header h2{
-          font-size: 1.7rem;
-        }
-        .talenet-header-logos li{
-          padding: 1.5rem;
-        }
-        .remote-talent-main h1{
-          width: 80%;
-          font-size: 2rem;
-          line-height: 2.8rem;
-        }
-        .remote-solution-section-header h1 {
-          font-size: 1.7rem;
-          line-height: 2.5rem;
-        }
-        .remote-talent-main p{
-          width: 80%;
-        }
-        .talented-members {
-          display: flex;
-          flex-direction: column;
-        }
-        .member{
-          width: 100%;
-        }
-        .tech-stack-left{
-          width: 50%;
-        }
-        .tech-stack-left h2 {
-          font-size: 1.5rem;
-        }
-  
-        .left-global{
-          width: 50%;
-        }
-        .left-global p {
-          font-size: 13px;
-        }
-        .left-global p {
-          font-size: 14px;
-        }
-        .gloabl-works {
-          display: flex;
-          justify-content: space-between;
-          gap: 1rem;
-        }
-        .work h2 {
-          font-size: 1.3rem;
-        }
-        .global-image img{
-          width: 99%;
-          margin-left: auto;
-          margin-right: auto;
-        }
+       
+      
         .developer-header h1 {
           font-size: 2.3rem;
           line-height: 2rem;
@@ -261,47 +147,6 @@
           padding: 1rem;
           font-size: 13px;
         }
-        .reason-main-section{
-          display: flex;
-          flex-direction: column;
-        }
-        .reason-main-left{
-          width: 100%;
-          padding: 2rem;
-        }
-        .main-left-container {
-          width: 100%;
-          
-        }
-        .reason-main-right{
-          padding: 2rem;
-          width: 100%;
-        }
-        .testimonial-main-discription h1 {
-          font-size: 1rem;
-        }
-        .testimonial-developer-image img {
-      
-          height: 250px;
-        }
-        .testimonial-main-discription p{
-          font-size: .8rem;
-        }
-        .testimonial-developer-profile h3{
-             font-size: .8rem;
-        }
-        .testimonial-developer-profile p{
-             font-size: .5rem;
-        }
-        .testimonial-main-discription img{
-          width: 25%;
-        }
-        .launch-project-section-header h1{
-             font-size: 1.5rem;
-        }
-        .launch-project-section-header p{
-          font-size: 13px;
-        }
         .footer-all-section{
            display: flex;
            flex-direction: column;
@@ -316,21 +161,18 @@
         .footer-certificate{
            width: 50%;
         }
-       
-        
-       
-  }
-  
+      }
   @media only screen and (max-width: 550px){
 
     
     .middle{
+      width: 100%;
         display:flex;
         flex-direction: column;
 
     }
     .rightpart img{
-        width: 100%;
+        width: 110%
     }
     
 
@@ -362,8 +204,10 @@
 .page1 img{
     height: 90%;
 }
-.Explore-btn{
-    font-size: .6rem;
+.Explore-btn a{
+  width: 90%;
+    font-size: 1rem;
+   
 }
 .rightflex{
     display: flex;
@@ -383,107 +227,40 @@
           width: 100%;
           margin: 30px 0px;
       }
-      .launch-project-section-image{
-        display: none;
-      }
-      .heading{
-          font-weight: 500;
-          font-size: 22px;
-          line-height: 48px;
-          color: rgb(255, 255, 255);
-          margin: 0px auto 20px;
-          max-width: 718px;
-          font-family: "platformmedium";
-          
-      }
-      .request-btn a{
-          width: 90%;
-      }
-      .tech-stack-header {
-          padding: 2rem;
-          display: flex;
-          flex-direction: column;
-        }
-        .tech-stack-left {
-          width: 100%;
-        }
-        .tech-stack-right{
-          margin-top: 2rem;
-          width: 100%;
-        }
-        .developer-header h1 {
-          font-size: 1.7rem;
-        }
-        .developer-header p {
-          width: 100%;
-          font-size: 14px;
-        }
-        .reason-header h1 {
-          font-size: 1.5rem;
-          line-height: 2.5rem;
-        }
-        .reason-header p {
-          width: 100%;
-        }
-      .global {
-          background: rgb(232, 244, 255);
-          display: flex;
-          flex-direction: column;
-        }
-        .left-global{
-          width: 100%;
-        }
-        .right-global {
-          width: 100%;
-        }
+    
       .developer {
-          width: 100%;
-        }
-        .reason-main-left {
-          padding: 0px;
-        }
-        .all-left-containers {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 1.5rem;
-          width: 215px;
-        }
-        .testimonial-main {
-          display: flex;
-         flex-direction: column;
-          gap: 2rem;
-        }
-        .main-first-image {
-          width: 70%;
-        }
-        .main-first-image img {
-          width: 100%;
-          height: 70%;
-          border-radius: 50%;
-          border: 3px solid #fff;
-        }
-        .testimonial-main-discription {
-          width: 100%;
-        }
-        .testimonial-main-discription h1{
-          width: 100%;
-          font-size: 1rem;
-        }
-        .testimonial-main-discription p {
-          font-size: .9rem;
-        }
-        .testimonial-main-discription img {
-          width: 50%;
-        }
-        .testimonial-developer-image{
-           width: 400%;
-           height: 300px;
-        }
-        .testimonial-developer-profile {
           width: 400%;
+          display: flex;
+       
+          flex-direction: column;
+      
+          margin-right: rem;
+
+      
+        }
+      
+        .developer-image{
+          width: 25rem;
+         align-items:start
+         text-align: start
+         
+        }
+       
+        .testimonial-developer-profile {
+          width: 100%;
           position: absolute;
-          padding: .5rem 1.5rem;
-          margin-bottom: 3rem;
+         
           
         }
+        
+        .tech-logo a{
+          padding: .9rem 1rem;
+        }
+        .footer-parts{
+            width: 80%;
+        }
+        .footer-certificate{
+           width: 50%;
+        }
+      }
   }
