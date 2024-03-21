@@ -765,7 +765,7 @@ footer a {
 
 @media only screen and (max-width: 1200px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: fit-content;
   }
 }
@@ -831,16 +831,23 @@ footer a {
     flex-direction: column;
   }
 
+  .subscribe-form {
+   
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
   #subscriber input {
     width: 100%;
-    font-size: 2rem;
-    padding: 25px 22px;
+    font-size: 1rem;
+    padding: 22px 22px;
   }
 
   #subscriber button {
     width: 100%;
-    font-size: 2rem;
-    padding: 25px 22px;
+    font-size: 1rem;
+    padding: 22px 22px;
   }
   #hero .img-container {
     margin-left: 28px;
