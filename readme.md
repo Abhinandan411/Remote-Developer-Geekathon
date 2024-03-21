@@ -119,7 +119,7 @@ We welcome contributions to enhance the REMOTE DEVELOPER WEBSITE. If you'd like 
 
 ## 🟢Installation
 
-Follow these simple steps to set up the TEDTALKS on your local machine:
+Follow these simple steps to set up the REMOTE DEVELOPER WEBSITE on your local machine:
 
   **1. Clone The Repository:**
 ```bash
